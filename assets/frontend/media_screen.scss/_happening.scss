@@ -1,0 +1,20 @@
+    /*----- Happenings css */
+    @media (max-width: 990px) {
+    .row.desktop-happening { display: none;}
+    .row.mobile-happening {display: flex!important;padding:15px;}
+    .row.mobile-happening .happen-block1 {display: block;border: 0px;border-radius: 0px;box-shadow: inherit;}
+    .happing-block1-detail {width: 100%;background: #fff;text-align: center;padding: 20px;}
+    .date{justify-content: center;}
+    .date h3 {font-size: 2.4rem;margin-right: 7px;font-weight: 300;color: #F37121;}
+    .happing-block1-detail h1 {font-size: 1.3rem;}
+    .date h4 {font-size: 1.3rem;margin-left: 3px;font-weight: 300;top: -12px;}
+    .happing-block1-detail p {color: #000;font-weight: 400;margin: 15px 0;padding-right: 0px;font-size: 1rem;}
+    .happen-block2 { width: 100%;}
+    .date2{display: none;}
+    .row.mobile-happening .owl-nav {padding: 15px 25px 40px;text-align: center;background: #fff;position: static;
+    border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+    .row.mobile-happening .owl-nav button span {background: #383B43;width: 30px;height: 30px;display: inline-block;
+    margin-right: 10px;font-size: 28px;line-height: 28px;color: #FFDE00;font-weight: 100;}
+    .row.mobile-happening  .owl-nav button span:hover{background: #0096A1;}
+    .row.mobile-happening .owl-nav button{box-shadow:inherit!important; outline: 0;}
+    }

@@ -1,0 +1,18 @@
+   /*----- banner css */
+   @media (max-width: 990px) {
+   .banner-content h1 {font-size: 1.5rem;font-weight: 500; text-align: center;}
+   .banner-content h1 br, .home-submit {display: none;}
+   .home-crs-panel ul{display: block;}
+   .home-crs-panel ul li {border-right:0px;padding:0px;margin-bottom:0px;width:50%;float: left;}
+   .home-crs-panel li:nth-child(1) {background: #dd354e;}
+   .home-crs-panel li:nth-child(2) {background: #9c5fea;}
+   .home-crs-panel li:nth-child(3) {background: #457ede;}
+   .home-crs-panel li:nth-child(4) {background: #eea739;}
+   .home-crs-panel ul li a {font-size: 1.1rem; padding: 20px 40px 20px 15px;text-align: left;
+   display: inline-block;font-weight:500;}
+   .home-crs-panel {background: none;padding: 0px;}
+   .home-course-serch{bottom:120px;}
+   .banner-content{bottom: 320px;}
+   }
+   
+   /*----- banner css end */

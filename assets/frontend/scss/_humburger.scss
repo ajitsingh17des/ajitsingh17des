@@ -1,0 +1,116 @@
+/*  BURGER MENU
+========================================== */
+.menu {
+    width: 47px;
+    height: 42px;
+    position: relative;
+    z-index: 21;
+    background: #FEBE10;
+    float: right;
+    top: 40px;
+}
+
+.menu.clicked {
+    width: 47px;
+    height: 42px;
+}
+
+
+
+.menu-nav {float: right;position: relative;left: 20px;top: 20px;}
+
+.menu-nav ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+.menu span {
+	position: relative;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -10px;
+	margin-top: -1.5px;
+}
+.menu span, .menu span::before, .menu span::after {
+    display: block;
+    width: 20px;
+    right: 0;
+    height: 2px;
+    background-color: #fff;
+    outline: 1px solid transparent;
+    transition-property: background-color, transform;
+   transition-duration: 0.3s;}
+.menu span::before, .menu span::after {position: absolute;content: "";}
+.menu span::before {top: -9px;width:20px}
+.menu span::after {top: 9px;width:13px;}
+.menu.clicked span {background-color: transparent;}
+.menu.clicked span::before {-webkit-transform: translateY(9px) rotate(45deg);-moz-transform: translateY(9px) rotate(45deg);-ms-transform: translateY(9px) rotate(45deg);-o-transform: translateY(9px) rotate(45deg);transform: translateY(9px) rotate(45deg);    width: 20px;}
+.menu.clicked span::after {-webkit-transform: translateY(-9px) rotate(-45deg);-moz-transform: translateY(-9px) rotate(-45deg);-ms-transform: translateY(-9px) rotate(-45deg);-o-transform: translateY(-9px) rotate(-45deg);transform: translateY(-9px) rotate(-45deg);}
+.menu.clicked span:before, .menu.clicked span:after {background-color: #ffffff;}
+.menu:hover {cursor: pointer;}
+/*  NAV
+========================================== */
+
+.sideMenu {
+    background: #383b43f5;
+    position: fixed;
+    z-index: 99999;
+    top:0px;
+    right: 0;
+    height: 100vh;
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    overflow-y: hidden;
+    opacity: 0;
+    z-index: -1; visibility: hidden; overflow-x: hidden;
+}
+.sideMenu.show {
+    opacity: 1;
+    z-index: 1;
+    transition: .2s; visibility:visible;
+}
+.sideMenu.show ul.main li {opacity: 1;}
+.menu.clicked span::after {
+    top: 9px;
+    width: 20px;
+}
+
+
+
+
+
+.header-wrapper li.searchnav {
+	padding: 0;
+	margin:0px;
+	position: relative;
+	z-index: 999;
+  }
+  
+  .header-wrapper li.searchnav a {
+
+	text-indent: -9999px;
+	width: 42px;
+	height: 42px;
+	background: #AB3438 url(../images/search-icon.svg) no-repeat;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+	background-position: 0 -3px;
+	padding: 0 10px;
+	display: inline-block;
+	background-position: center;
+	background-size: 50%;
+  }
+
+  body.add1 .menu-level {
+    z-index: -1;
+}
+body.add1{position: fixed; width:100%;}

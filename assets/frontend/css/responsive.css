@@ -1,0 +1,162 @@
+.font-12{font-size: 12px!important;}
+.footer-mobile-menu{display: none;}
+@media (max-width: 990px) {
+
+    /*----- header css */
+    
+    .menu-level {display: none;}
+    #logoAndNav{text-align: center;}
+    .home-panel1 .navbar-brand img.img-fluid {width: 15rem;}
+    .menu-nav {float: none;position: absolute;right: 0px;top: 0;    left: inherit;}
+    section.home-panel1 {padding-top:50px;}
+    section.home-panel1.fixed #logoAndNav {text-align: left;padding-top: 0px;    transition: .2s;}
+    section.home-panel1.fixed {padding: 10px 0;}
+    section.home-panel1.fixed #logoAndNav img.img-fluid {width: 12rem;transition: .2s;}
+    
+    /*----- header css end */
+    
+    /*----- banner css */
+    .banner-content h1 {font-size: 1.5rem;font-weight: 500; text-align: center;}
+    .banner-content h1 br, .home-submit {display: none;}
+    .home-crs-panel ul{display: block;}
+    .home-crs-panel ul li {border-right:0px;padding:0px;margin-bottom:0px;width:50%;float: left;}
+    .home-crs-panel li:nth-child(1) {background: #dd354e;}
+    .home-crs-panel li:nth-child(2) {background: #9c5fea;}
+    .home-crs-panel li:nth-child(3) {background: #457ede;}
+    .home-crs-panel li:nth-child(4) {background: #eea739;}
+    .home-crs-panel ul li a {font-size: 1.1rem; padding: 20px 40px 20px 15px;text-align: left;
+    display: inline-block;font-weight:500;}
+    .home-crs-panel {background: none;padding: 0px;}
+    .home-course-serch{bottom:120px;}
+    .banner-content{bottom: 320px;}
+    
+    /*----- banner css end */
+    
+    
+    /*----- study-at css */
+    
+    .study-title {margin-top: -58px;text-align: center;}
+    .study-wrapper h2, .study-wrapper h3 {font-size: 3.5rem;}
+    .study-at {padding: 120px 0 20px;}
+    .study-wrapper h4 {font-weight: 400;font-size: 1.5rem;text-align: center;margin: 20px 0;}
+    .study-wrapper h4 b {font-weight: 800;}
+    .study-wrapper {max-width: 100%;text-align: center;padding:25px;}
+    .read-more {margin: 30px 0px 20px;}
+    .bowse-by {text-align: center;}
+    .bowse-by ul li {width: 47%;margin-right: 10px; padding:3px 0;}
+    .bowse-by ul li a{font-size: .9rem;}
+    .bowse-by ul li a:before {left: 0;right: 0;margin: auto;}
+    
+    
+   
+    
+    
+    /*----- research-at css */
+    .reva-research{text-align: center;}
+    .reva-res-content h2 {margin-bottom: 30px;line-height: .8;letter-spacing: -3px;}
+    .reva-res-content p {font-size: 1.2rem;font-weight: 300;}
+    .reva-res-content {width: 100%;margin-bottom: 60px;}
+    .reva-resch-panel p{text-align:left;}
+    .reva-resch-panel .owl-nav {top:inherit;bottom:-20px;left: 0;right: 0;}
+    
+    
+    
+    
+    /*----- left-at css */
+    
+    
+    .life-at-panel {width: 92%;padding: 0px 20px;top:inherit; bottom: 30px;left: 0; right: 0; margin: auto;}
+    .life-at-title {margin-top: 0px; text-align: center; position: absolute;top: -100px;left: 0;right: 0;}
+    .life-at-text ul li a {padding: 10px 0;font-size: .7rem;}
+    .life-at-text p {font-size: 1rem;font-weight: 400; text-align: center;}
+    .life-at-title {margin-top: -40px;text-align: center;position: relative;top: -180px;left: 0;right: 0;}
+    .life-at-panel h2 {font-size: 3rem;line-height: .8;letter-spacing: -3px;}
+    .life-at-panel h3 {color: #fff;font-size: 3rem;line-height: .9;letter-spacing: -4px;margin: 0px;}
+    .life-at-reva { height: 700px;}
+    .life-at-text ul li {margin-right: 12px;}
+    .life-at-text { margin: 0px;}
+    .life-at-text .read-more {margin: 28px 0;text-align: center;}
+
+       /*----- about-at css */
+
+
+    .home-about {width: 100%;float: none;}
+    .home-about1 h3 {font-size: 2.5rem;letter-spacing: -1px;}
+    .home-about1 p{display: none;}
+    .home-about1 {background: none;}
+    .home-about2{display: none;}
+    .box-camp { width: 142px;padding:20px 0px 20px 30px;height:101px;margin:auto; background: url(../images/path-icon2.png) no-repeat;
+    }
+    .box-camp h2 {font-size: 1.8rem; margin: 0px;}
+    .box-camp p { font-size: .6rem; margin: 0px;}
+    .student-campus {position: absolute;background: #f37120eb;width: 92%; left: 0;right: 0; margin: auto;z-index: 9;padding: 30px 0px 0px;
+    }
+    .tour-panel ul{display: block; list-style: none;padding: 0 30px;}
+    .tour-panel ul li {width: 100%;margin:20px 15px;padding-right: 70px;}
+    .home-abt-title {margin-top: -148px; text-align: center;}
+    .home-about1 .read-more { margin: 10px 0;position: static; z-index: 9;text-align: center;}
+    .home-about1 h2 { font-size: 3rem;line-height: .8;}
+    .home-about2 {padding: 25px 20px 0px;text-align: center;}
+    .tour-panel ul li a {font-size: .9rem;}
+    .tour-panel .home-about2 ul li:last-child img {display: none;}
+    .home-about2.d-none {display: block!important;}
+    .home-about2 h4 {font-size: 1rem;}
+    .tour-panel .home-about2 ul li img{width:100%; height:inherit; margin:0px;}
+    .tour-panel .home-about2 ul li {float: none;display: inline-block;width: 38%;margin: 0px 10px;padding-right: 0px;}
+    .tour-panel .home-about2 ul{padding:0px; margin:0px;}
+
+    
+
+
+       /*----- Happenings css */
+.row.desktop-happening { display: none;}
+.row.mobile-happening {display: flex!important;padding:15px;}
+.row.mobile-happening .happen-block1 {display: block;border: 0px;border-radius: 0px;box-shadow: inherit;}
+.happing-block1-detail {width: 100%;background: #fff;text-align: center;padding: 20px;}
+.date{justify-content: center;}
+.date h3 {font-size: 2.4rem;margin-right: 7px;font-weight: 300;color: #F37121;}
+.happing-block1-detail h1 {font-size: 1.3rem;}
+.date h4 {font-size: 1.3rem;margin-left: 3px;font-weight: 300;top: -12px;}
+.happing-block1-detail p {color: #000;font-weight: 400;margin: 15px 0;padding-right: 0px;font-size: 1rem;}
+.happen-block2 { width: 100%;}
+.date2{display: none;}
+.row.mobile-happening .owl-nav {padding: 15px 25px 40px;text-align: center;background: #fff;position: static;
+border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.row.mobile-happening .owl-nav button span {background: #383B43;width: 30px;height: 30px;display: inline-block;
+margin-right: 10px;font-size: 28px;line-height: 28px;color: #FFDE00;font-weight: 100;}
+.row.mobile-happening  .owl-nav button span:hover{background: #0096A1;}
+.row.mobile-happening .owl-nav button{box-shadow:inherit!important; outline: 0;}
+
+
+/*----- footer css */
+
+footer{padding: 20px 15px;}
+footer ul {display: none;}
+.footer-panel1 .col-6 {-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}
+.footer-panel h1 {display: none;}
+.footer-panel p {display: none;}
+.footer-panel1 .col-md-3:last-child {padding: 0px 15px;ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+.follow-us ul {display: flex;}
+.footer-panel p.font-12 {display: block;}
+.footer-desktop-menu {display: none;}
+.footer-mobile-menu h2 a {color: #fff;font-size: .84rem;}
+.footer-mobile-menu h2 { min-height: inherit;margin: 0px;padding: 15px 0;}
+.footer-mobile-menu .follow-us ul { display: inline-block;}
+.footer-mobile-menu ul li {display: inline-block;width: 48%;}
+.footer-mobile-menu{display: block!important;}
+.footer-panel1 .col-md-3:last-child ul { display: block;padding: 20px 0 0;}
+.footer-panel1 .footer-mobile-menu .col-md-3:last-child h2{min-height:inherit;padding-top: 0px;}
+p.font-12 {color: #fff;}
+.footer-mobile-menu .follow-us ul li{width: 17%;}
+.footer-panel1 h2:after {width: 30px;}
+.follow-us h3 { color: #fff;font-size: 1.1rem;margin: 30px 0 0;display: inline-block;padding: 10px 0 10px;
+}
+    
+}
+@media (max-width:320px) {
+
+.life-at-text ul li {margin-right: 10px;}
+.tour-panel ul li { padding-right: 26px;}
+
+ }
+

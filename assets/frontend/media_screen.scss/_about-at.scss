@@ -1,0 +1,28 @@
+  /*----- about-at css */
+  @media (max-width: 990px) {
+
+  .home-about {width: 100%;float: none;}
+  .home-about1 h3 {font-size: 2.5rem;letter-spacing: -1px;}
+  .home-about1 p{display: none;}
+  .home-about1 {background: none;}
+  .home-about2{display: none;}
+  .box-camp { width: 142px;padding:20px 0px 20px 30px;height:101px;margin:auto; background: url(../images/path-icon2.png) no-repeat;
+  }
+  .box-camp h2 {font-size: 1.8rem; margin: 0px;}
+  .box-camp p { font-size: .6rem; margin: 0px;}
+  .student-campus {position: absolute;background: #f37120eb;width: 92%; left: 0;right: 0; margin: auto;z-index: 9;padding: 30px 0px 0px;
+  }
+  .tour-panel ul{display: block; list-style: none;padding: 0 30px;}
+  .tour-panel ul li {width: 100%;margin:20px 15px;padding-right: 70px;}
+  .home-abt-title {margin-top: -148px; text-align: center;}
+  .home-about1 .read-more { margin: 10px 0;position: static; z-index: 9;text-align: center;}
+  .home-about1 h2 { font-size: 3rem;line-height: .8;}
+  .home-about2 {padding: 25px 20px 0px;text-align: center;}
+  .tour-panel ul li a {font-size: .9rem;}
+  .tour-panel .home-about2 ul li:last-child img {display: none;}
+  .home-about2.d-none {display: block!important;}
+  .home-about2 h4 {font-size: 1rem;}
+  .tour-panel .home-about2 ul li img{width:100%; height:inherit; margin:0px;}
+  .tour-panel .home-about2 ul li {float: none;display: inline-block;width: 38%;margin: 0px 10px;padding-right: 0px;}
+  .tour-panel .home-about2 ul{padding:0px; margin:0px;}
+  }

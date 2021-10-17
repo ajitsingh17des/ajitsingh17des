@@ -1,0 +1,164 @@
+ footer {
+        background: #222222; padding: 60px 0 0;    position: relative;
+        overflow: hidden; clear: both;
+    }
+    footer .path-2{right:-190px;    left: inherit; position: absolute;}
+
+    .footer-panel1 h2 {
+        color: #fff;
+        font-size: 1.1rem;
+        margin: 30px 0;
+        position: relative;
+        padding-bottom: 20px;
+    &:after {
+        width: 50px;
+        height: 1px;
+        content: "";
+        background: #F8AE2E;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+}
+    .footer-panel1 ul li a:hover{color: #eda33f;}
+    
+    .footer-panel1 ul li a {
+        color: #e2dede;
+        font-size: .9rem;
+        display: block;
+        margin: 10px 0;
+        font-weight: 100;
+    }
+    
+    footer ul {
+        margin-bottom: 54px;
+    }
+    .follow-us ul {
+        margin: 0px 0 20px;
+        padding: 0;
+    }
+    
+    .footer-panel2 p {
+        font-size: .8rem;
+        color: #fff;text-align: right;
+        margin: 0px;
+    padding: 9px 0;
+}
+.follow-us footer ul {
+    margin-bottom: 0px;
+}
+
+    .footer-input input.form-control {
+        border: 1px solid #ffffff2e;
+        background: none;
+    }
+
+    .follow-us h3 {
+        color: #fff;
+        font-size: 1.1rem;
+        margin: 30px 0 0;
+        padding: 20px 0 10px;
+    }
+    
+    .follow-us {
+        display: block;
+        list-style: none;
+        border-bottom: 1px solid #ffffff2e;
+        margin-bottom: 30px;
+    }
+    
+    .follow-us ul li {
+        display: inline-block;
+    }
+    
+    .submit-btn {
+        position: absolute;
+    right: 9px;
+    top:45px;
+    }
+    .submit-btn a {
+        width: 25px;
+        height: 25px;
+        background: #3E4094;
+        display: inline-block;
+        border-radius: 50%;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .footer-input {
+        position: relative;
+    }
+
+    .footer-panel1 .col-md-3 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+
+
+    .footer-panel h1 {
+        font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 300;@include font-panel1;  
+    }
+    .footer-panel p{    font-size: .9rem;
+        font-weight: 100;
+        line-height: 26px; @include font-panel2; color: #fff;}
+    .footer-panel {
+        padding-top: 27px;
+    }
+    .footer-panel1 .col-md-3:last-child {
+        padding: 0px;
+    }
+
+    li.tel-icon i {
+        color: #fff;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 29px;
+        font-size: 20px;
+        margin-top: 13px;
+        transform: rotate(166deg);
+    }
+    
+    li.message-icon i {
+        font-size: 20px;
+        color: #fff;
+        margin-right: 20px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .footer-contact ul li {
+        border-bottom: 1px solid #ffffff2e;
+        padding: 4px 0;
+    }
+    
+    .footer-contact ul li a {
+        font-size: 1rem;
+    }
+
+    .footer-input h3 {
+        font-size: 1.1rem;
+        color: #fff;
+        padding-bottom: 10px;
+    }
+    .sterco{color:#fff; 
+   &:hover{color:#eda33f;}
+    }
+
+
+    .submit-btn a:hover {
+        background: #2096a1;
+        color: #fff;
+    }
+
+    .footer-mobile-menu{display: none;}
+    p.font-12 {
+        font-size: .75rem;
+        line-height: 20px;
+    }
+    .mobile-services, .mobile-notice-panel{display: none;}
+    section.course-list-section h1, .courselist-menu a.close-btn, section.inner-head-panel .path-3{display:none;}

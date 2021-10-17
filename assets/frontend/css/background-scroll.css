@@ -1,0 +1,9 @@
+.about-panel1,.about-panel2,.about-panel3,.about-panel4 {
+    background-attachment: fixed !important;;
+    background-size: cover !important;
+    background-position: center !important;;
+}
+.about-panel1, .about-panel3 {
+    background-attachment: scroll !important;;
+}
+

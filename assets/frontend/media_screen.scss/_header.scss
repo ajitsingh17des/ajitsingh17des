@@ -1,0 +1,22 @@
+@media (max-width: 990px) {
+
+    /*----- header css */
+    
+    .menu-level {display: none;}
+    #logoAndNav{text-align: center;}
+    .home-panel1 .navbar-brand img.img-fluid {width: 15rem;}
+    .menu-nav {float: none;position: absolute;right: 0px;top: 0;    left: inherit;}
+    section.home-panel1 {padding-top:50px;}
+    section.home-panel1.fixed #logoAndNav {text-align: left;padding-top: 0px;    transition: .2s;}
+    section.home-panel1.fixed {padding: 10px 0;}
+    section.home-panel1.fixed #logoAndNav img.img-fluid {width: 12rem;transition: .2s;}
+    a.navbar-brand.u-header__navbar-brand.u-header__navbar-brand-center{padding:0 10px;}
+    section.home-panel1.fixed a.navbar-brand.u-header__navbar-brand.u-header__navbar-brand-center{padding:0 10px;}
+    .menu{top:0px;}
+    .humburger-slide {padding: 150px 20px;}
+    body.add1 a.navbar-brand.u-header__navbar-brand.u-header__navbar-brand-center {left: 25px;}
+    .menu-logo{z-index:-1;}
+    section.home-panel1.fixed nav.menu-panel {top: 0px;}
+    .menu-panel li.searchnav{top:0px}
+    /*----- header css end */
+}

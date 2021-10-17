@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,500&display=swap");
+@media (max-width: 990px) {
+  .lefe-reva-content1 {
+    width: 100%;
+  }
+  .life-academic {
+    width: 100%;
+  }
+  .life-academic2 {
+    width: 100%;
+    position: static;
+  }
+  .halls-of-residence {
+    width: 100%;
+  }
+  .on-campus-facilities {
+    width: 100%;
+  }
+  .Health-safety {
+    width: 100%;
+  }
+  .life-academic ul li a {
+    color: #fff;
+    border-top: 1px solid #fffffff0;
+  }
+  .life-academic ul li:last-child a {
+    border-bottom: 1px solid #fffffff0;
+  }
+  .life-academic p, .life-academic h2 {
+    color: #fff;
+  }
+  .about-panel-content2, .about-panel-content4, .about-panel-content3, .about-box1, .about-panel-content1 {
+    width: 100%;
+  }
+  .research-panel-content1, .research-panel-content2, .research-panel-content3, .research-panel-content4 {
+    width: 100%;
+  }
+  .research-panel3 {
+    background-attachment: inherit;
+    padding-bottom: 90px;
+    height: inherit;
+  }
+  .research-panel3 .reva-resch-panel {
+    width: 100%;
+    float: none;
+    position: static;
+  }
+  .research-panel3 .reva-resch-panel p {
+    padding: 50px 0;
+  }
+  .placement-panel-content1, .training, .placemet-record {
+    width: 100%;
+  }
+  section.placement-news-act.inner-life-reva-panel6 p {
+    padding: 0 15px;
+  }
+  .placement-box1 h5 {
+    font-size: 1.5rem;
+  }
+  section.inner-life-reva-panel6 .col-md-4 {
+    margin-bottom: 25px;
+  }
+  .ece-study-at .study-wrapper {
+    padding: 25px;
+    max-width: 100%;
+  }
+  .ece-study-at.study-at .bowse-by {
+    padding: 50px 0px;
+  }
+  .bowse-by h3 {
+    font-size: 2.5rem;
+  }
+  .ece-study-at .bowse-by ul li {
+    width: 47%;
+    margin-right: 6px;
+    padding: 3px 0;
+  }
+  .ece-placement-at .placemnet-text-right h2 {
+    font-size: 2.8rem;
+    line-height: 1;
+  }
+  .ece-study-at.study-at {
+    padding: 60px 0 50px;
+  }
+  .ece-placement-at.placement-at {
+    padding: 60px 0 60px;
+  }
+  .ece-placement-at .placemnet-text-right {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .ece-life-at-reva .life-at-title {
+    margin-top: 0;
+    top: 0px;
+  }
+  .ece-life-at-reva .life-at-panel h3 {
+    font-size: 1.5rem;
+    line-height: .9;
+    letter-spacing: 0;
+  }
+  .ece-life-at-reva .life-at-panel {
+    width: 100%;
+    padding: 30px 15px;
+    position: static;
+  }
+  .ece-teaching-facility {
+    background-size: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .ece-teaching-facility:before {
+    background: #0000006b;
+    content: "";
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+  }
+  .teaching-fac {
+    padding: 50px 0px;
+  }
+  .ece-faculties-panel {
+    padding-right: 0;
+  }
+  .ece-about-university .home-about {
+    width: 100%;
+    float: none;
+  }
+  .ece-about-university .home-abt-title {
+    margin: 0px;
+  }
+  .ece-about-university .home-about1 h3 {
+    font-size: 2rem;
+  }
+  .ece-about-university .home-about1 p {
+    font-weight: 400;
+    display: block;
+    text-align: center;
+  }
+  .ece-about-university.home-about-university {
+    height: 100%;
+  }
+  .international-tie-up {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .ece-tie-up h3 {
+    margin-right: 0;
+    border-right: 0px;
+    width: 100%;
+  }
+  .inter-nat {
+    width: 100%;
+  }
+  .international-tie-up .owl-nav button span {
+    background: none;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 28px;
+    line-height: 28px;
+    color: #333;
+    font-weight: 100;
+    border: 1px solid #333;
+  }
+  section.inner-study-with-us2 {
+    padding: 50px 0 330px;
+  }
+  .view-all-cours a {
+    padding: 30px;
+    display: inline-block;
+  }
+  .contact-reva p {
+    padding: 0px;
+  }
+  .contact-reva ul {
+    margin: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .office-panel {
+    padding: 0px;
+    margin-top: 10px;
+    padding: 20px 3px;
+  }
+  .office-hours {
+    width: 100%;
+    margin: 40px 0px;
+    padding: 20px 3px;
+  }
+  .office-adm {
+    width: 100%;
+    margin: 0px;
+  }
+  .contact-reva {
+    padding: 40px 20px;
+  }
+  .contact-reva ul li {
+    padding: 0px;
+  }
+  .office-adm h4 {
+    font-size: 1.1rem;
+  }
+  .contact-pan {
+    float: none;
+    margin: 10px 0;
+  }
+  .contact-pan a {
+    padding: 0 5px;
+  }
+  section.contact-panel4 {
+    padding: 30px 0px 50px;
+  }
+  .office-hours h4 {
+    top: -34px;
+  }
+  .career-panel1 h3 {
+    font-size: 2rem;
+    margin-top: 0px;
+  }
+  .career-panel1 {
+    margin-top: 0px;
+  }
+  .contact-hr {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .career-apply .read-more {
+    top: 18px;
+    margin: 0px;
+  }
+  section.career-testimonial .owl-nav {
+    position: static;
+  }
+  .career-test-detail {
+    padding: 30px 0;
+  }
+  section.career-testimonial {
+    padding: 50px 15px;
+  }
+  section.career-current-opening {
+    padding: 50px 0;
+  }
+  section.career-panel2 h6 {
+    padding: 50px 10px;
+  }
+  section.career-panel1 img {
+    top: 0px;
+  }
+  section.career-panel2 {
+    padding: 30px 0 50px;
+  }
+  .contact-hr h4 {
+    font-size: 1.8rem;
+    margin: 0 0 20px;
+  }
+  .contact-phone {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+  }
+  .contact-email {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+  }
+  .doen-resume {
+    margin: 10px 0;
+  }
+  .ece-study-at.study-at .bowse-by h3 {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .testimonial-box {
+    width: 100%;
+    padding: 40px;
+    float: none;
+  }
+  .happening-box1 {
+    width: 100%;
+  }
+  .happening-panel-content1 {
+    width: 100%;
+  }
+  .happening-box2 {
+    width: 100%;
+    float: none;
+  }
+  .happening-box3 {
+    width: 100%;
+  }
+  .happening-box1 p, .happening-box2 p, .happening-box3 p {
+    font-size: 1.4rem;
+  }
+  .happen-media-coverage {
+    height: inherit;
+    padding-bottom: 20px;
+  }
+  section.happening-panel4 .col-md-4 {
+    margin-bottom: 30px;
+  }
+  .happen-media-coverage.press-cover h2 {
+    font-size: 1.5rem;
+    margin: 10px 0 30px;
+    line-height: 1.5;
+  }
+  section.happening-panel4 {
+    padding: 80px 0 50px;
+  }
+  .media-cover-detail .date, .happening-box3 .date, .happening-box2 .date, .happening-box1 .date {
+    padding: 0px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .courses-tab {
+    margin-top: 20px;
+  }
+  .courses-tab .tab-content > .tab-pane {
+    border: 0px;
+  }
+  .courses-tab .card-body {
+    padding: 0px;
+  }
+  .courses-tab .card.tab-pane .card-header a:before {
+    width: 40px;
+    height: 40px;
+    content: "";
+    background: #fef9f8 url(../images/b-arrow.svg) no-repeat;
+    position: absolute;
+    right: 0px;
+    border-radius: 50%;
+    text-align: center;
+    background-size: 20%;
+    background-position: center;
+    -webkit-transform: rotate(89deg);
+            transform: rotate(89deg);
+  }
+  .courses-tab .card.tab-pane.active a {
+    border: 0px;
+    color: #0096A1;
+    padding-bottom: 18px;
+  }
+  .courses-tab .card.tab-pane.active .card-header {
+    border: 0px;
+  }
+  .courses-tab .card-header a {
+    color: #2096a1;
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+  }
+  .courses-tab .card.tab-pane .card-header a {
+    border: 0px;
+    padding-bottom: 18px;
+    display: block;
+    position: relative;
+  }
+  .courses-tab .card.tab-pane a.collapsed {
+    color: #666;
+    border: 0px;
+    padding-bottom: 0px;
+  }
+  .courses-tab .card-header {
+    background: none;
+    border: 0px;
+    padding: 15px 0;
+    border-top: 1px solid #c2c2c285;
+    border-radius: 0px;
+  }
+  .courses-tab .card.tab-pane .card-header a:after {
+    background: #F7941E;
+    width: 200px;
+    height: 1px;
+    position: absolute;
+    content: "";
+    bottom: -13px;
+    left: 0px;
+  }
+  .courses-tab .card.tab-pane a.collapsed:after {
+    display: none;
+  }
+  section.inner-head-panel {
+    padding: 100px 0 0;
+    height: inherit;
+  }
+  section.inner-head-panel h1 {
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 45px 0px 0;
+    text-align: center;
+    border-top: 1px solid #fff;
+  }
+  section.course-list-section h1 {
+    color: #383B43;
+    font-size: 1.2rem;
+    padding-right: 52px;
+    margin-bottom: 30px;
+    display: block;
+  }
+  section.course-list-section h1 a {
+    color: #383B43;
+    font-family: 'Roboto Slab', serif;
+  }
+  .img-slide {
+    background: #EEE1D8;
+    display: inline-block;
+    padding: 13px;
+    border-radius: 50%;
+    position: absolute;
+    right: 11px;
+    top: 0px;
+  }
+  .img-slide img {
+    width: 100%;
+  }
+  .courselist-menu {
+    background: #EEE1D8;
+    padding: 70px 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86), -webkit-transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    background-size: cover;
+    z-index: 9;
+    overflow-y: scroll;
+    max-height: 100%;
+  }
+  .courselist-menu.show {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .courselist-menu.show a.close-btn {
+    position: absolute;
+    right: 13px;
+    display: block;
+    top: 21px;
+    position: absolute;
+    right: 20px;
+    display: block;
+  }
+  .courselist-menu.show .close-btn img {
+    -webkit-filter: brightness(0.5);
+            filter: brightness(0.5);
+  }
+}
+/*# sourceMappingURL=inner-responsive.css.map */

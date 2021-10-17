@@ -1,0 +1,14 @@
+  /*----- study-at css */
+  @media (max-width: 990px) {  
+  .study-title {margin-top: -58px;text-align: center;}
+  .study-wrapper h2, .study-wrapper h3 {font-size: 3.5rem;}
+  .study-at {padding: 120px 0 20px;}
+  .study-wrapper h4 {font-weight: 400;font-size: 1.5rem;text-align: center;margin: 20px 0;}
+  .study-wrapper h4 b {font-weight: 800;}
+  .study-wrapper {max-width: 100%;text-align: center;padding:25px;}
+  .read-more {margin: 30px 0px 20px;}
+  .bowse-by {text-align: center;}
+  .bowse-by ul li {width: 47%;margin-right: 10px; padding:3px 0;}
+  .bowse-by ul li a{font-size: .9rem;}
+  .bowse-by ul li a:before {left: 0;right: 0;margin: auto;}
+  }

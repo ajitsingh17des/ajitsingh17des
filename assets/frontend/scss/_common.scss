@@ -1,0 +1,118 @@
+*{padding: 0px; margin: 0px;}
+a{text-decoration: none!important; transition: all 0.2s linear;}
+a:hover{color:#a80f18;}
+body{background:#fff; font-size:1rem; @include font-panel2;}
+a,h1{@include font-panel2;}
+// full page search css
+.full-search-panel .wrapper, .search-data{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .full-search-panel .wrapper{
+    position: fixed;
+    height: 0px;
+    width: 0px;
+    border-radius: 100%;
+    background: linear-gradient(-135deg, #FEBE10, #F57F26 );
+    transition: all 0.4s linear; z-index: 999;
+  }
+  .full-search-panel .wrapper.active_bg{
+    height: 4000px;
+    width: 4000px;
+  }
+
+.full-search-panel .search-data, .full-search-panel .search-data span,
+.full-search-panel .search-data label,  .full-search-panel .closesearch{
+  display: none;
+}
+.full-search-panel .search-data{
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    /* display: none; */
+  }
+  .full-search-panel .search-data input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+  }
+  .full-search-panel .search-data .line{
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #fff;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: transform 0.4s 0.3s linear;
+  }
+  .full-search-panel .search-data .line.active{
+    transform: scaleX(1);
+  }
+  .full-search-panel .search-data label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 20px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: rgba(255,255,255,0.7);
+  }
+  .full-search-panel .search-data input:valid ~ label{
+    opacity: 0;
+  }
+  .full-search-panel .search-data span{
+    color: #fff;
+    position: absolute;
+    width: 50px;
+    font-size: 25px;
+    right: 0;
+    top: 0;
+    line-height: 45px;
+    cursor: pointer;
+  }
+  .full-search-panel .closesearch{
+    position: absolute;
+    z-index: 9999;
+    right: 25px;
+    top: 25px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  // mobile menu css
+
+#accordian {width:100%;}
+
+
+#accordian ul ul {display: none;}
+#accordian li.active>ul {display: block;}
+#accordian ul ul ul {margin-left: 15px;border-left: 1px dotted rgba(0, 0, 0, 0.5);}
+#accordian a:not(:only-child):after {
+    content: "\f105";
+    font-family: fontawesome;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 22px;
+}
+
+#accordian .active>a:not(:only-child):after {
+    content: "\f107";
+}
+.sideMenu.show .humburger-slide.mobile-menu ul li a {
+    display: block;
+}
+
+.sideMenu.show .humburger-slide.desktop-menu {display: block;}
+.sideMenu.show .humburger-slide.mobile-menu{display:none;}
+body.add1 .mobile-services {display: none;}
+body.add1 .mobile-notice-panel {display: none;}

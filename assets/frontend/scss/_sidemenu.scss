@@ -1,0 +1,86 @@
+
+.menu-level ul li a:hover { color: #fcbe12;}
+.menu-group-panel {background: #383b44;
+position: fixed;top: 0px;z-index: 9999;right:0px;   transform: translateX(100%);
+transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86), -webkit-transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+section.home-panel1.fixed  .menu-group-panel {top: -16px; transition: .2s;}
+.add2 .menu-group-panel {transform: translateX(0%);right: 0;}
+
+//sidemenu1
+.sideMenu1 {    background: #383B43;position: static;z-index: 9999;top: 0;right: 0;height: 100vh;
+max-width: 350px;width: 350px;padding: 30px 15px 60px 15px;overflow-y: auto;overflow-x: hidden;transform: translateX(100%);
+transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);}
+.sideMenu1.show {transform: translateX(0px);}
+.slide_brose-school h2 {font-size: 1.2rem;color: #009AD9;margin: 20px 30px;@include font-panel1; 
+border-top: 1px solid #ffffff2b;padding: 20px 0 0; font-weight: normal;}
+.slide_brose-school ul li a {font-size: 1rem;}
+  
+.menu-logo2 {position: absolute; bottom: -100px;width: 100%;right: -200px; z-index:-1;}
+.menu-logo2 img {width: 100%;}
+.add2 .pro-grm a:after{    transform: rotate(45deg);}
+.add2 .pro-grm a {background: #383b44;}
+.pro-grm {position: absolute;top: 88px;}
+
+.add3 .add-miss a:after{    transform: rotate(45deg);}
+.add3 .add-miss a {background: #383b44;}
+.add-miss{position: absolute;top:90px;}
+
+//sidemenu2
+.sideMenu2 {    background: #383B43;position: fixed;z-index: 9999;top: 0;right: 0;height: 100vh;
+    max-width: 350px;width: 350px;padding: 30px 15px 60px 15px;overflow-y: auto;overflow-x: hidden;transform: translateX(100%);
+    transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);}
+    .sideMenu2.show {transform: translateX(0px);}
+.admission-helpline-slide {padding: 0 20px;}
+.admission-helpline-slide h2 {color: #fff;font-size: 1.2rem;@include font-panel1; font-weight: 400;border-bottom: 1px solid #ffffff3b;
+padding-bottom: 20px;}
+.sideMenu2 .footer-contact ul li a {padding: 5px 0px;}
+.admission-link ul li a{padding: 4px 0; color: #fff; @include font-panel2; font-size: 1rem; display: block; font-weight: 300;}
+li.apply a {padding: 5px 30px 5px 20px;background: #FEBE10;display: inline-block;font-size: 1rem;color: #000; position: relative;}
+li.apply a:after {content: "";background: url(../images/b-arrow.svg);width: 7px;height: 18px;position: absolute;
+right: 13px;top: 15px;background-size: 100%;background-repeat: no-repeat;}
+li.d-app a { background:#0096A1;   display: inline-block; padding: 5px 20px;font-size: 1rem;}
+li.ad-enquiry a { background:#F57F26;   display: inline-block; padding: 5px 20px;font-size: 1rem;}
+.add3 .menu-group-panel {transform: translateX(0%);right: 0;}
+.down-link ul li {display: inline-block;}
+.down-link ul li a:hover {color: #000;}
+.down-link ul li a {padding: 6px 30px  6px 20px;}
+
+
+//sidemenu3
+
+body.add1 li#show_search {z-index: 0;}
+body.add1 .menu-group-panel {z-index: -1;}
+
+.sideMenu3 {    background: #383B43;position: fixed;z-index: 9999;top: 0;right: 0;height: 100vh;
+    max-width: 350px;width: 350px;padding: 30px 15px 60px 15px;overflow-y: auto;overflow-x: hidden;transform: translateX(100%);
+    transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);}
+.sideMenu3.show {transform: translateX(0px);}
+.life-reva-menu ul li a{    padding: 4px 0; color: #fff; @include font-panel2; font-size: 1rem; display: block; font-weight: 300;}
+.life-reva-menu {padding: 0 20px;}
+.life-reva-menu ul ul li {padding: 0 10px;position: relative;}
+.life-reva-menu ul ul {padding: 10px 0;border-bottom: 1px solid #ffffff24;margin-bottom: 20px;}
+.life-reva-menu ul ul li:before {content: "";position: absolute;color: #fff;left: 0px;width: 10px;background: #fff;height: 1px;top: 13px;}
+.life-reva-menu ul ul li a {font-size: .85rem;padding: 3px 25px;}
+.img-pan1 {display: inline-block;background: #0096A1;padding: 20px;border-radius: 50%;vertical-align: top;
+width: 30%;}
+.images1 {display: flex;}
+.images1 p {color: #fff;padding: 20px 20px 0;margin: 0px;}
+.img-pan2 {display: inline-block;background: #FEBE10;padding: 20px 13px;border-radius: 50%;vertical-align: top;
+width: 26%;}
+.images2 {display: flex;margin: 20px 0;}
+.tour_link img {width: 100%;}
+.images2 p { color: #fff;padding: 20px 20px 0;margin: 0px;}
+.tour_link {margin-top: 41px;border-top: 1px solid #ffffff29; padding-top: 40px;}
+.add4 .life-reva a:after{    transform: rotate(45deg);}
+.add4 .life-reva a {background: #383b44;}
+.life-reva{position: absolute;top: 90px;}
+.add4 .menu-group-panel {transform: translateX(0%);right: 0;}
+.sideMenu .humburger-slide {
+    display: none;
+}
+
+.sideMenu.show .humburger-slide {
+    display: block;
+}

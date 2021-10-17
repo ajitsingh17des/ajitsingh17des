@@ -1,0 +1,184 @@
+
+.menu-level li a {
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 29px 5px 29px;
+    margin: 3px 0;
+    position: relative;
+    font-weight: 400;
+    float: none;
+    display: block;
+     @include font-panel1; 
+
+}
+
+
+.menu-level li {
+    list-style: none;    margin: 3px 0;
+}
+
+
+
+.pro-grm a {background: #F57F26;}
+.add-miss a {background: #60636D;}
+.life-areva a {background: #009AD9;}
+
+.pro-grm a:after {
+    background: url(../images/plus.svg) no-repeat;
+    content: "";
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 8px;
+    top: 18px;
+}
+
+
+body.add1 section.home-panel1.fixed {
+    background: none;
+}
+
+body.add1 a.navbar-brand.u-header__navbar-brand.u-header__navbar-brand-center {
+    position: fixed;
+    z-index: 999999;
+}
+
+.humburger-slide {
+    padding: 135px 120px;
+}
+
+.humburger-slide ul li a {
+    font-size: 1.5rem;
+    color: #ffff;@include font-panel1;
+}
+.humburger-slide ul {
+    list-style: none;
+}
+.humburger-slide .other-link-detail ul{opacity:1;}
+.humburger-slide .other-link-detail ul:after{display: none;}
+.humburger-slide .other-link-detail ul li a {
+    font-size: 1rem;@include font-panel1; font-weight: normal;color:#fff;
+}
+.humburger-slide ul li ul:after {
+    background: #fff;
+    content: "";
+    width: 250px;
+    height: 1px;
+    position: absolute;
+    top: 14px;
+    left: -280px;
+}
+
+.other-link-detail {
+    display: inline-block;
+    border-top: 1px solid #009AD9;
+    border-bottom: 1px solid #009AD9;
+    padding: 15px 0;
+    margin: 15px 0;
+}
+.humburger-slide ul li ul {
+    position: absolute;
+    left: 550px; top: 0px;    opacity: 0;
+    transition: .2s;z-index: 99;    visibility: hidden;
+}
+.humburger-slide ul li:hover ul {
+    opacity: 1;
+    transition: .2s;    visibility: visible;
+}
+
+.humburger-slide .other-link-detail ul {
+    position: static;visibility: visible;
+}
+
+.humburger-slide ul ul li a {
+    font-size: 1rem;@include font-panel2;   padding: 3px 0;
+    display: block;
+    color: #fffc;
+    font-weight: 300;
+}
+
+
+.humburger-slide ul li {
+    position: relative;
+}
+
+.humburger-slide ul li a:hover{color:#FEBE10;}
+
+.menu-logo {
+    position: absolute;
+    right: -300px;
+    opacity: .2;
+    z-index: 9;
+    top: -300px;
+}
+
+
+
+
+
+
+.pro-grm a {
+    background: #F57F26;
+    position: absolute;
+    left: -170px;
+    padding: 10px 40px 10px 15px;
+    font-size: 1.3rem;
+    color: #fff !important;
+    @include font-panel1; 
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.add-miss a {
+    background: #60636D;
+    position: absolute;
+    left: -170px;
+    padding: 10px 39px 10px 15px;
+    font-size: 1.3rem;
+    color: #fff !important;
+    @include font-panel1; 
+    font-weight: 300;
+    cursor: pointer;
+    top: 55px;
+}
+
+.add-miss a:after{background: url(../images/plus.svg) no-repeat;
+    content: "";    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 8px;
+    top: 18px;
+    }
+
+
+    .life-reva a{
+        background: #009AD9;
+        position: absolute;
+        left: -187px;
+        padding: 10px 45px 10px 15px;
+        font-size: 1.3rem;
+        color: #fff !important;
+        font-weight: 300;
+        cursor: pointer;
+        top: 110px;
+        @include font-panel1; 
+  
+    }
+    
+    .life-reva a:after{background: url(../images/plus.svg) no-repeat;
+        content: "";
+        width: 17px;
+        height: 17px;
+        position: absolute;
+        right: 8px;
+        top: 18px;
+        background-position: center;
+        }
+    
+
+
+
+
+
+
+

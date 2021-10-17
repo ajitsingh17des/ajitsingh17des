@@ -1,0 +1,112 @@
+
+
+.searchoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #de0b5c;
+    z-index: 99999999;
+    display: none;
+
+    transition: left .5s ease-in-out;
+}
+
+.searchoverlay .searchform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    max-width: 100%;
+    z-index: 999;
+    background: #AB3438;
+    padding: 20px;
+    text-align: center;
+}
+.searchoverlay:before {
+    content: "";
+    background: #000;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    cursor: initial;
+}
+
+.searchoverlay .closesearch {
+    color: #fff;
+    position: absolute;
+    font-size: 20px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 60px;
+    display: inline-block;
+    z-index: 9999;
+    transition: left .5s ease-in-out;
+}
+
+.searchoverlay .searchform input {
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    background: 0 0;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    padding: 10px 50px 10px 0;
+    width: 100%;
+    outline: 0;
+    max-width: 100%;
+}
+
+.search-box_klh {
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+.searchoverlay .searchform .search {
+    position: absolute;
+    top: 6px;
+    right: 0;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff8f8;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.searchoverlay .searchform input::placeholder{color:#fff}
+.menu-panel li.searchnav a {
+    display: inline-block !important;
+    text-indent: -9999px;
+    width: 42px;
+    height: 42px;
+    background: url(../images/search-icon.svg) no-repeat;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    background-position: 0 -3px;
+    padding: 0px;
+    display: inline-block;
+    background-position: center;
+    margin-right: 10px;
+}
+
+
+
+.menu-panel li.searchnav {
+    padding: 0;
+    margin: 0px;
+    position: absolute;
+    z-index: 9999;
+    top:39px;
+    right: 46px;
+
+}

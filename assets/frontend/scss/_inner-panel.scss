@@ -1,0 +1,2543 @@
+//life-at-reva css
+
+section.inner-life-reva-panel1 {
+    background: url(../images/life-at-banner.png) no-repeat;
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center; position: relative;
+}
+.lefe-reva-content1 {
+    width: 404px;
+    padding-top: 180px;
+    padding-left: 0; position: relative;
+}
+section.inner-life-reva-panel1:before {
+    background: #0000005e;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+section.inner-life-reva-panel4:before {
+    background: #0000005e;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.life-at-campus {
+    background: #219ad9;
+    padding: 45px;
+}
+.lefe-reva-content1 h2 {
+    color: #fff;@include font-panel1; font-size: 3rem; margin-bottom: 40px; text-transform: uppercase;
+}
+
+.life-at-campus h4 {
+    color: #fff;
+    margin-bottom: 20px;@include font-panel1; font-size: 1.5rem; font-weight: normal;
+}
+.life-academic h2{@include font-panel1;  margin-bottom: 20px;}
+.life-at-campus h5 {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;@include font-panel1; 
+}
+
+.life-at-campus p {
+    color: #fff;
+    font-size: .9rem;@include font-panel2; 
+}
+
+section.inner-life-reva-panel2 {
+    background: url(../images/life-academic.png) no-repeat;
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+.life-academic {
+    width: 250px;
+    padding: 100px 0;
+}
+
+.life-academic2 {
+    position: absolute;
+    bottom: 0px;
+    width: 260px;
+    background: #F57F26;
+    right: 0;
+    padding: 30px;
+}
+
+.life-academic2 p {
+    color: #fff;    margin: 0px;
+}
+
+section.inner-life-reva-panel2 .container {
+    position: relative;
+    height: 100%;
+}
+
+.life-academic2 h3 {
+    font-size: 3rem;
+    color: #fff;@include font-panel1; 
+}
+
+.life-academic2 h5 {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.life-academic ul li {
+    list-style: none;
+}
+
+.life-academic ul li a {
+    color: #383B43;@include font-panel1; border-top: 1px solid #828282f0;
+display: block;padding: 10px 0;font-weight: 700;}
+
+.life-academic p {
+    font-size: .95rem;
+}
+
+.life-academic ul {
+    margin: 30px 0;
+}
+
+.life-academic ul li:last-child a {
+    border-bottom: 1px solid #828282f0;
+}
+
+.life-academic ul li a:hover {
+    color: #f57f26;
+}
+.life-academic i.fa.fa-angle-right {
+    float: right;    margin: 5px 0;
+}
+
+.life-academic2 .owl-nav button span {
+
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 100; border:1px solid #fff; border-radius: 5px;
+}
+.life-academic2 .owl-nav {
+    margin: 20px 0 0;
+}
+
+section.inner-life-reva-panel3 {
+    background: url(../images/residence_campus.png) no-repeat;
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center; padding: 150px 0;
+}
+.halls-of-residence {
+    width: 450px;
+    background: #383B43;
+    padding: 45px;
+}
+
+.halls-of-residence h2 {
+    color: #fff;
+    margin-bottom: 30px; font-size:1.8rem; font-weight: 300;@include font-panel1;
+}
+
+.halls-of-residence p {
+    color: #fff;
+    font-weight: 300;
+}
+
+.halls-of-residence .read-more a {
+    border: 1px solid #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin: 20px 0 0;
+}
+
+.halls-of-residence .read-more a:hover {
+    background: #2096a1; border-color:#2096a1;
+}
+
+section.inner-life-reva-panel4 {
+    background: url(../images/on-campus.png) no-repeat;
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;    padding: 150px 0; position: relative;
+}
+section.inner-life-reva-panel4 h2 {
+    font-size: 1.8rem;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+section.inner-life-reva-panel4  ul li {list-style: none;}
+section.inner-life-reva-panel4  ul li a {color: #383B43;@include font-panel1; border-top: 1px solid #828282f0;
+display: block;padding: 10px 0;font-weight: 700;}
+section.inner-life-reva-panel4  ul li:last-child a {border-bottom: 1px solid #828282f0;}
+section.inner-life-reva-panel4  ul li a:hover {color: #f57f26;}
+section.inner-life-reva-panel4  i.fa.fa-angle-right {float: right;    margin: 5px 0;}
+.on-campus-facilities {
+    width: 404px;
+    background: #fff;
+    padding: 40px;
+    float: right; position: relative;
+}
+section.inner-life-reva-panel5 {
+    background: url(../images/health-saftey.png) no-repeat;
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;    padding: 150px 0;
+}
+
+
+section.inner-life-reva-panel5 h2{font-size: 2rem;color: #fff;@include font-panel1; font-weight:300; margin-bottom: 40px; }
+section.inner-life-reva-panel5  ul li {list-style: none;}
+section.inner-life-reva-panel5  ul li a {color: #fff;@include font-panel1; border-top: 1px solid #828282f0;
+display: block;padding: 10px 0;font-weight: 500;}
+section.inner-life-reva-panel5  ul li:last-child a {border-bottom: 1px solid #828282f0;}
+section.inner-life-reva-panel5  ul li a:hover {color: #f57f26;}
+section.inner-life-reva-panel5 i.fa.fa-angle-right {float: right;    margin: 5px 0;}
+
+.Health-safety {
+    width: 404px;
+    background: #009AD9;
+    padding: 40px;
+}
+
+
+.Health-safety .read-more a {
+    border: 1px solid #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin: 20px 0 0;
+}
+
+.Health-safety .read-more a:hover {
+    background: #2096a1; border-color:#2096a1;
+}
+
+.Health-safety .read-more a i.fa.fa-angle-right {
+    float: none;
+    margin: 0px;
+}
+
+section.inner-life-reva-panel6 {
+    background: #383B43;
+    padding: 100px 0;
+}
+
+section.inner-life-reva-panel6 h2 {
+    text-align: center;
+    color: #fff;@include font-panel1; margin-bottom:30px;
+}
+
+section.inner-life-reva-panel6 p {
+    text-align: center;
+    color: #fff;
+}
+
+section.inner-life-reva-panel6 .row {
+    margin-top: 50px;
+}
+
+.beyond-content {
+    background: #fff;
+    padding: 30px 45px;
+}
+
+.beyond-content h3 {
+    font-weight: 300;margin-bottom:30px; color:#000;@include font-panel1;
+}
+
+section.inner-life-reva-panel6 .beyond-content p {
+    color: #666666;
+    text-align: left;
+
+
+}
+
+section.inner-life-reva-panel6 .read-more a{display:inline-block;
+
+    border: 1px solid #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #000;
+    margin: 20px 0 0;
+}
+
+section.inner-life-reva-panel6 .read-more a:hover {
+    background: #2096a1; border-color:#2096a1; color:#fff;
+}
+
+.owl-nav button {
+    outline: 0;
+    box-shadow: inherit;
+}
+
+section.banner.inner-ece-abnner h3 {text-align: left;@include font-panel1; font-weight:400; font-size: 1.5rem;}
+section.banner.inner-ece-abnner h1 {padding: 0px;text-align: left;font-weight:300;line-height: .9; margin-top: 20px;
+}
+section.banner.inner-ece-abnner .banner-content{bottom:50px;}
+section.banner.inner-ece-abnner:after {
+    content: "";
+    background-image: linear-gradient(
+181deg, #0000009e, #0000000d);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 11;
+
+}
+
+
+
+
+// ece study-at
+
+.ece-study-at.study-at {background: #FDEBE7;padding:150px  0 100px; position: relative; overflow: hidden;}
+.ece-study-at .study-wrapper {background: #71C0CA;padding:45px;    max-width: 420px;}
+.ece-study-at .study-wrapper h3 {
+    margin: 0px;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #383B43;
+    @include font-panel1;
+    letter-spacing: 0;
+}
+
+.ece-study-at .study-wrapper h4 {color: #383B43;font-weight: 300;margin: 35px 0;padding-right: 0px;font-size: 2.5rem;@include font-panel1;
+}
+
+.ece-study-at .study-wrapper p {
+    color: #383B43;
+    @include font-panel1;
+    font-size: 2rem;
+    padding: 30px 0;
+    line-height: 1.2;
+    font-weight: 300;
+}
+.ece-study-at .bowse-by ul {list-style: none;padding: 0px;}
+.ece-study-at .bowse-by ul li {width: 47%;display: inline-block;vertical-align: top;margin-right: 34px;padding:3px 0;}
+.ece-study-at .bowse-by ul li:nth-child(2n) {margin-right: 0px;}
+.ece-study-at .bowse-by ul li a {
+    color: #000;
+    position: relative;
+    padding: 20px 0;
+    display: block;
+    @include font-panel1;
+    font-weight: 600;
+    font-size: 1.1rem;
+}.ece-study-at .bowse-by ul li a:hover {color: #2096a1;}
+.ece-study-at .bowse-by ul li a:before {content: "";width: 80px;height: 1px;background: #F37121;position: absolute;bottom: 0px;}
+.ece-study-at .bowse-by h2 {
+    font-size: 3.5rem;
+    color: #71C0CA;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    @include font-panel1;
+    line-height: .85;
+    letter-spacing: -3px;
+
+}
+.ece-study-at .owl-nav button span {
+
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 100; border:1px solid #000; border-radius: 5px;
+}
+
+.bowse-by h3 {
+    color: #F9A455;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: .7;   @include font-panel1;    margin-bottom: 30px;
+}
+.ece-study-at .read-more a {display: inline-block;
+    border: 1px solid #000;
+    width: 35px;
+    height: 35px;
+    box-shadow: 1px 1px 1px #00000029;
+    border-radius: 5px;
+    text-align: center;
+    background-position: center;
+    line-height: 35px;
+    color: #000;
+}
+
+.ece-study-at .read-more {
+    margin: 40px 0;
+}
+
+.ece-study-at .read-more a:hover {
+    background: #fff;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 1px #00000029;
+}
+
+
+
+
+.ece-study-at .path-1 {
+    width: 50%;
+    position: absolute;
+    right: -300px;
+    top: -124px;
+}
+.ece-date {
+    border-top: 1px solid #707070;
+    padding: 30px 0;
+    color: #60636D;
+    margin-bottom: 7px;
+}
+.bowse-by.aos-init.aos-animate h5 {
+    font-size: .95rem;
+    color: #000;
+    font-weight: 400;
+}
+
+
+
+// ece placement-at
+
+.ece-placement-at.placement-at {background: #009AD9;padding:120px  0 120px; position: relative; overflow: hidden;}
+
+.ece-placement-at .placemnet-text-right h2 {
+    margin-bottom: 30px;font-size: 3rem;
+    color: #fff;@include font-panel1;
+}
+.ece-placement-at .placemnet-text-right {
+    text-align: right;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.ece-placement-at .placemnet-text-right p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.ece-placement-at .placemnet-text-right  .read-more a {
+    display: inline-block;
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    box-shadow: 1px 1px 1px #00000029;
+    border-radius: 5px;
+    text-align: center;
+    background-position: center;
+    line-height: 35px;
+    color: #fff;
+}
+
+.ece-placement-at .placemnet-text-right  .read-more {
+    margin: 20px 0;
+}
+
+.ece-placement-at .placemnet-text-right .read-more a:hover {
+    background: #000;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 1px #00000029;
+}
+
+.ece-placement-at .placemnet-text-right h3 {
+    font-size: 4.5rem;
+    color: #fff;@include font-panel1;font-weight: bold;margin: 0px;
+}
+.ece-placement-at .placemnet-text-right h5 {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;@include font-panel2;margin-bottom:26px;
+}
+.ece-placement-at .line-draw-box {
+    border: 9px solid #CDDE54;
+    width: 372px;
+    height: 458px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.ece-placement-at .placemnet-text-left {
+    margin-left:0px;
+}
+
+.ece-placement-at .text-placement {
+    background: #009AD9;
+    width: 350px;
+    padding: 35px 34px;
+    margin: 0 -30px;
+    position: relative;
+    top: 90px;
+}
+
+.ece-placement-at .text-placement p{@include font-panel2; font-weight: 100; color: #fff; font-size:1.5rem;    margin-bottom: 30px;}
+.ece-placement-at .placement-pic {
+    position: absolute;
+    right: 0px;
+    bottom: -120px;
+    width: 76%;
+}
+
+.ece-placement-at .yellow-btn {
+    background: #FFDE00;
+    padding: 20px;
+}
+
+.ece-placement-at .yellow-btn h4 {
+    font-size: 1.2rem;
+    color: #60636D;
+}
+
+.ece-placement-at .yellow-btn h5 {
+    font-size: 1rem;
+    color: #60636D;
+}
+.ece-placement-at .owl-carousel.placement-logo {
+    background: #fff;
+}
+
+
+.ece-placement-at .path-2 {
+    width: 41%;
+    position: absolute;
+    left: -160px;
+    bottom: -24px;
+}
+
+//ece-reva-research
+
+
+.ece-reva-research.reva-research{background: url(../images/ece-research2.png) no-repeat; width: 100%; height:650px; background-position: center; background-size: cover;}
+.ece-reva-research .reva-res-content {
+    padding: 70px 0;
+    width: 300px;margin-bottom: 60px;
+}
+
+.ece-reva-research .reva-res-content h2 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 30px;  font-weight: 500;@include font-panel1; line-height: 1;
+}
+
+.ece-reva-research .reva-res-content p {
+    color: #fff;
+    font-size: 1.5rem;  font-weight: 100;@include font-panel1;
+}
+
+.ece-reva-research .reva-resch-panel p {
+    color: #fff;@include font-panel1;
+    font-weight: 300;
+    border-top: 1px solid #ffffff38;
+    padding: 30px 0;
+    position: relative;
+}
+.ece-reva-research .reva-resch-panel .owl-item.active p:after {
+    background: #FFDE00;
+    width: 100px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: 0px;
+}
+
+.ece-reva-research .reva-resch-panel .owl-nav {
+    position: absolute;
+    top: -75px;
+}
+
+.ece-reva-research .reva-resch-panel .owl-nav button span {
+    background: #383B43;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 28px;
+    line-height: 28px;
+    color: #FFDE00;
+    font-weight: 100;
+}
+.ece-reva-research .reva-resch-panel .owl-nav button span:hover{background: #0096A1;}
+
+
+
+
+// ece-life-at-reva
+.ece-life-at-reva .container{position: relative;}
+
+.ece-life-at-reva .life-at-panel {
+    width: 500px;
+    background: #009ddbe3;
+    padding: 30px 50px;
+    position: absolute;
+    top: 150px;
+    z-index: 999; right:0px;
+}
+.ece-life-at-reva.life-at-reva { position: relative;
+    background: url(../images/ece-life-at.png) no-repeat; width: 100%; height:690px; background-position: center; background-size: cover;
+}
+
+.ece-life-at-reva .life-at-panel h2 {
+    color: #fff;
+    font-size: 3rem;
+    margin: 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    @include font-panel1;
+}
+
+.ece-life-at-reva .life-at-panel h3 {
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: .9;
+    @include font-panel1;
+}
+.ece-life-at-reva .life-at-title {
+    margin-top: -75px;
+}
+.ece-life-at-reva .life-at-text {
+    margin: 30px 0;
+}
+.ece-life-at-reva .life-at-text p{@include font-panel1; font-size: 1.1rem; font-weight:300; color: #fff;}
+.ece-life-at-reva .life-at-text ul {
+    list-style: none;
+    padding: 20px 0 0;
+}
+
+.ece-life-at-reva .life-at-text ul li {
+    width: 47%;
+    display: inline-block;
+    border-bottom: 1px solid #ffffff5e;
+    margin-right: 14px;
+    vertical-align: top;
+}
+
+.ece-life-at-reva .life-at-text ul li a {
+    color: #fff;
+    padding: 12px 0;
+    display: block;
+    font-size: .95rem;
+ @include font-panel2;font-weight:300;
+}
+
+.ece-life-at-reva .life-at-text ul li:nth-child(2n){margin-right: 0px;}
+
+.ece-life-at-reva .life-at-text   .read-more a {
+    display: inline-block;
+    border: 1px solid #fff;
+    width: 35px;
+    height: 35px;
+    box-shadow: 1px 1px 1px #00000029;
+    border-radius: 5px;
+    text-align: center;
+    background-position: center;
+    line-height: 35px;
+    color: #fff;
+}
+.ece-life-at-reva .life-at-text   .read-more {
+    margin: 40px 0;
+}
+
+.ece-life-at-reva .life-at-text  .read-more a:hover {
+    background: #000;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 1px #00000029;
+}
+
+
+
+
+//ece-about-university
+
+.ece-about-university.home-about-university{background: url(../images/about-ece.png) no-repeat; width: 100%;; height: 550px; background-position: center; background-size: cover;
+    padding: 180px 0; position: relative;}
+
+    .ece-about-university .home-about {
+        width: 450px;
+        z-index: 1;
+        padding: 0px;
+        float: left;
+        position: relative;
+    }
+    
+    .ece-about-university .home-about1 {
+        background: #f37120eb;
+        padding: 30px;    position: relative;
+    }
+    
+    .ece-about-university .home-about2 {
+        background: #fff;
+        padding: 30px;
+    }
+
+    .ece-about-university .home-about1 h2 {
+        color: #fff;
+        font-size: 2.5rem;    margin: 0px;
+        text-transform: uppercase;
+        line-height: 1;@include font-panel1;
+    }
+    
+    .ece-about-university .home-about1 h3 {
+            color: #fff;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            line-height: .9;@include font-panel1; margin-bottom: 30px;
+    }
+
+    .ece-about-university .home-abt-title{
+        margin-top: -70px;
+    }
+
+    .ece-about-university  .home-about1 p{@include font-panel1; margin: 30px 0; font-weight: 300; color: #fff;}
+
+
+
+    .ece-about-university .home-about1  .read-more a {
+        display: inline-block;
+    
+        width: 35px;
+        height: 35px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        text-align: center;
+        background-position: center;
+        line-height: 35px;
+        color:#fff;
+    }
+
+    
+    .ece-about-university .home-about1 .read-more a:hover {
+        background: #000;
+color:#fff;
+      
+    }
+
+
+    //home happening
+
+.home-happening{
+    background: #FDEBE7;
+    padding: 50px 0 50px;
+    position: relative;
+    overflow: hidden;
+    }
+    
+    .happen-block1 {
+        display: flex;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        box-shadow: 1px 1px 1px #0000001a;
+    }
+    .home-happening .col-md-6{    margin-bottom: 0px;
+        padding: 10px;}
+    .home-happening h2{@include font-panel1;color: #F37121;    margin-bottom: 40px;}
+    .happing-img {
+        width: 100%;
+        margin-right: 20px;
+    }
+    
+    .date {
+        display: flex;
+        font-size: 1rem;
+        align-items: baseline;
+        padding: 20px 0 0;
+        color: #4A4C55;  @include font-panel1;
+    }
+    
+    .date h3 {
+        font-size: 1.5rem;
+        margin-right: 7px;
+    font-weight: 300;
+    
+        color: #4A4C55;  @include font-panel1;
+    }
+    
+    .date h4 {
+        font-size: 1rem;
+        margin-left: 3px;
+        font-weight: 300;
+        position: relative;
+        top: -6px;
+        color: #4A4C55;@include font-panel1;
+    }
+    .happing-block1-detail p {
+        color: #F37121;
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin: 0px 0px 15px;@include font-panel1;    padding-right: 30px;
+    }
+    
+    .happing-block1-detail {
+        width: 100%;
+    }
+    
+    .date2{@include font-panel2;font-size: .8rem;}
+    
+    .happen-block2 {
+        display: inline-block;
+        width: 48%;
+        margin-right: 17px;    box-shadow: 1px 1px 1px #0000001a;    height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    
+    .happen-block3 {
+        background: #fff;
+        width: 48%;
+        display: inline-block;
+        vertical-align: top;
+        height: 100%;    box-shadow: 1px 1px 1px #0000001a;    border-radius: 5px;
+        overflow: hidden;
+    }
+    
+    .happen-block2 .happing-block1-detail {
+        background: #fff;
+        padding: 20px;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .happen-block2 .happing-block1-detail h1 {
+        font-size: 1rem;@include font-panel1;    color: #383B43;
+        font-weight: 400;
+    }
+    
+    .happen-block3 .happing-block1-detail h1 {
+        font-size: 1rem;
+        margin-bottom: 20px;@include font-panel1;    color: #383B43;
+        font-weight: 400;
+    }
+    
+    .happen-block3 .happing-block1-detail p {
+        font-size: .9rem;
+        color: #60636D;@include font-panel2; font-weight: 300;
+    }
+    
+    .happen-block3 .happing-block1-detail {
+        padding: 20px;
+    }
+    
+    .happen-block2 .date {
+        padding-top: 0px;
+    }
+    
+    .happen-block2 .date h3 {
+        color: #f5823c;@include font-panel1;
+    }
+    
+    .happen-block3 .date h3 {
+        color: #f5823c;@include font-panel1;
+    }
+    .happen-block3 .date {
+        padding-top: 0px;
+    }
+    
+    .home-happening .read-more a {
+        background: #383B43;
+        color: #FFCF06;border:0px;
+        display: inline-block;
+    width: 35px;
+    height: 35px;
+    -webkit-box-shadow: 1px 1px 1px #00000029;
+    box-shadow: 1px 1px 1px #00000029;
+    border-radius: 5px;
+    text-align: center;
+    background-position: center;
+    line-height: 35px;
+
+    &:hover {
+        background: #0096A1;
+    }
+    }
+    
+    .home-happening .path-1{    width: 50%;
+        position: absolute;
+        right: -300px;
+        bottom: -124px; top:inherit;}
+
+        .home-happening   .read-more {
+            margin: 35px 0;
+        }
+
+        .international-tie-up {
+            display: flex;
+            align-items: center;
+        }
+        
+        .international-tie-up img {
+            display: inline-block;
+            width: auto;
+            max-width: inherit;
+        }
+        .ece-tie-up {
+            background: #fff;
+            padding: 40px 0;
+        }
+        
+        .ece-tie-up h3 {
+            font-size: 1.5rem;
+            border-right: 1px solid #000;
+            margin-right: 38px;
+            line-height: 2;
+            width: 30%;@include font-panel1;
+        }
+        
+        .inter-nat {
+            width: 70%;
+        }
+
+        .ece-teaching-facility{
+            background: #0096A1 url(../images/teacher-bg.png) no-repeat;
+            width: 100%;
+            height: 700px;
+            background-position: top right;
+            background-size: 54%;}
+
+            .teaching-fac {
+                padding: 50px 100px 50px 0px;
+            }
+            
+            
+            
+            .teaching-fac h2 {
+                color: #fff;
+                font-size: 2.5rem;
+                margin-bottom: 30px;@include font-panel1;
+            }
+            
+
+            
+            .teaching-fac p {
+                color: #fff;@include font-panel1;font-weight: 300;
+            }
+            
+ 
+            
+            .teaching-fac h3 {
+                font-size: 1rem;
+                color: #fff;
+            }
+            
+            .teaching-fac h5 {
+                font-size: .9rem;
+                color: #fff;
+                font-weight: 300;
+            }
+            
+            .teaching-fac img {
+                margin-bottom: 20px;
+            }
+
+
+            .teaching-fac .read-more a {
+                background: none;
+                color: #fff;
+                border: 1px solid #fff;
+                display: inline-block;
+                width: 35px;
+                height: 35px;
+                border-radius: 5px;
+                text-align: center;
+                background-position: center;
+                line-height: 35px;
+                margin: 15px 0 30px;
+            
+        
+            &:hover {
+                background: #000;
+            }
+            }
+
+            .teaching-fac .owl-nav button span {
+                width: 30px;
+                height: 30px;
+                display: inline-block;
+                margin-right: 10px;
+                font-size: 24px;
+                line-height: 24px;
+                color: #fff;
+                font-weight: 100;
+                border: 1px solid #fff;
+                border-radius: 5px;
+            }
+
+            .ece-faculties-panel {
+                padding-right: 100px;
+            }
+
+            .ece-faculties-panel  .owl-nav {
+                margin-top: 35px;
+            }
+
+
+            // inner-study-with-us
+
+            .inner-study-with-us{
+                background: url(../images/life-at-banner.png) no-repeat;
+                width: 100%;
+                height: 500px;
+                background-size: cover;    background-attachment: fixed;
+                background-position: center; position: relative;
+
+            }
+            .study-with-content1 {
+                position: absolute;
+                bottom: 50px; z-index:2;
+            }
+            
+            .study-with-content1 h2{color:#fff;@include font-panel1;font-weight: 300;    font-size: 3.5rem;}
+            .inner-study-with-us:after {
+                content: "";
+                background-image: linear-gradient(
+            181deg, #0000009e, #0000000d);
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0px;
+                z-index: 1;
+            
+            }
+
+            section.inner-study-with-us2 {
+                padding: 100px 0 400px;
+                position: relative;
+                background: #FDEBE7;
+                overflow: hidden;
+            }
+            
+            section.inner-study-with-us2 .home-course-serch {
+                position: static;
+            }
+
+
+
+            section.inner-study-with-us2 .path-1 {
+                position: absolute;
+                top: -100px;
+                right: -200px;
+                width: 38%;
+            }
+
+
+            .view-all-cours {
+                text-align: center;
+                padding: 30px 0;
+            }
+            
+            .view-all-cours a {
+                color: #333;
+                font-weight: 700;@include font-panel1;
+            }
+            
+            .view-all-cours a:hover {
+                color: #2096a1;
+            }
+            
+            section.inner-study-with-us3 {
+                margin-top: -300px;
+                position: relative;
+                margin-bottom: 100px;
+            }
+            
+            section.inner-study-with-us3 h2 {
+                text-align: center;
+                display: block;
+                color: #383B43;
+                margin-bottom: 50px;
+                padding-bottom: 30px;
+                position: relative;@include font-panel1;font-weight: 600;
+            }
+            
+            section.inner-study-with-us3 h2:after {
+                background: #f57f26;
+                content: "";
+                width: 100px;
+                height: 1px;
+                position: absolute;
+                bottom: 0px;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+
+
+            .bs-school-boxes p {
+                color: #fff;
+                position: absolute;
+                z-index: 2;
+                top: 0px;
+                padding: 50px;
+                font-size: 1.2rem;
+                @include font-panel1;
+                font-weight: 500;
+                width: 100%;
+                height: 100%;
+            }
+            
+            .bs-school-boxes {
+                position: relative;
+                overflow: hidden;
+                box-shadow: 3px 3px 7px #00000052;
+            }
+            
+            section.inner-study-with-us3 .col-md-4 {
+                margin-bottom: 30px;
+                position: relative;
+            }
+            
+            section.inner-study-with-us3 .col-md-4:nth-child(1) .bs-school-boxes:after {content: "";background: #F9A455;width: 100%;height: 100%;position: absolute;top: 0; left:0;    mix-blend-mode: multiply;}
+            section.inner-study-with-us3 .col-md-4:nth-child(2) .bs-school-boxes:after {content: "";background: #F37121;width: 100%;height: 100%;position: absolute;top: 0;left:0;    mix-blend-mode: multiply;}
+            section.inner-study-with-us3 .col-md-4:nth-child(3) .bs-school-boxes:after {content: "";background: #71C0CA;width: 100%;height: 100%;position: absolute;top: 0;left:0;    mix-blend-mode: multiply;}
+            section.inner-study-with-us3 .col-md-4:nth-child(4) .bs-school-boxes:after {content: "";background: #0096A1;width: 100%;height: 100%;position: absolute;top: 0;left:0;    mix-blend-mode: multiply;}
+            section.inner-study-with-us3 .col-md-4:nth-child(5) .bs-school-boxes:after {content: "";background: #F7941E;width: 100%;height: 100%;position: absolute;top: 0;left:0;    mix-blend-mode: multiply;}
+            section.inner-study-with-us3 .col-md-4:nth-child(6) .bs-school-boxes:after {content: "";background: #009AD9;width: 100%;height: 100%;position: absolute;top: 0;left:0;    mix-blend-mode: multiply;}
+
+            .bs-school-boxes a {
+                display: inline-block;
+                padding: 0px;
+            }
+
+            .bs-school-boxes:hover img {
+                transform: scale(1.1);
+            }
+            
+            .bs-school-boxes img {
+                width: 100%;
+                height: auto;
+                transition: all 1.1s ease 0s;
+            }
+
+
+
+//placement-panel1
+
+
+.placement-panel1{  background: url(../images/placement-bg.png) no-repeat;
+    width: 100%;
+    height:100vh;
+    background-size: cover;    background-attachment: fixed;
+    background-position: center; position: relative;}
+
+    .placement-panel-content1 {
+        width: 404px;
+        padding-top: 170px;
+        padding-left: 0;
+        position: relative; z-index:2;
+
+    }
+
+    .placement-box1 {
+        background: #F57F26;
+        padding: 45px;
+    }
+    
+    .placement-box1 h5 {
+        color: #fff;
+        margin-bottom: 20px;
+        font-size: 1.2rem;     @include font-panel1; font-weight:400;
+    }
+    
+    .placement-box1 p {
+        color: #fff;
+        font-size: .95rem;font-weight:300;
+    }
+    
+
+    
+    .placement-panel-content1 h2 {
+        color: #fff;
+        padding: 0px 0px 30px;     @include font-panel1; font-size: 2.5rem; text-transform: uppercase;
+    }
+
+    .read-more a {
+        border: 1px solid #fff;
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 5px;
+        color: #fff;
+        margin: 9px 0;
+    }
+    
+
+    .placement-panel1:after {
+        content: "";
+        background-image: linear-gradient(
+    181deg, #0000009e, #0000000d);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        z-index: 1;
+    
+    }
+
+
+
+
+
+    .placement-panel2{  background: url(../images/training-pic.png) no-repeat;
+        width: 100%;
+        height:100vh;
+        background-size: cover;    background-attachment: fixed;
+        background-position: center; position: relative; padding:140px 0;}
+    
+        .training {background: #009AD9;
+            width: 454px;
+          padding: 40px;
+            position: relative; z-index:2; float:right;
+    
+        }
+        .training h2 {
+            color: #fff;
+            margin-bottom: 30px; @include font-panel1;
+        }
+        
+        .training p {
+            color: #fff;
+            font-weight: 300; @include font-panel2;    font-size: .95rem;
+        }
+        .placement-brochure a {
+            display: inline-block;
+            background: #FEBE10; color:#000; font-weight:600;
+            padding: 10px;@include font-panel2;
+        }
+        .placement-brochure a i {
+            padding: 0 10px;
+        }
+        
+        .placement-brochure a:hover {
+            background: #f57f26;
+            color: #fff;
+        }
+        
+        .placement-brochure {
+            margin: 30px 0 20px;
+        }
+
+        .training .read-more a:hover {
+            background: #fff;
+            border-color: #fff;
+            color: #000;
+        }
+        .placement-box1 .read-more a:hover {
+            background: #fff;
+            border-color: #fff;
+            color: #000;
+        }
+
+
+        .placement-panel3{  background: url(../images/placement-record.png) no-repeat;
+            width: 100%;
+            height:100vh;
+            background-size: cover;    background-attachment: fixed;
+            background-position: center; position: relative; padding:50px 0;}
+
+            .placemet-record {
+                width: 450px;
+                background: #383B43;
+                padding: 40px;
+            }
+            
+            .placemet-record h2 {
+                color: #fff;
+                margin-bottom: 30px;@include font-panel1;
+            }
+            
+            .placemet-record p {
+                color: #fff;
+                font-size: .95rem;
+                font-weight: 300;
+                line-height: 1.6;
+            }
+            
+            
+            
+            section.placement-panel3 .owl-carousel.life-academic2-slider{
+                margin: 30px 0;
+            }
+            
+            section.placement-panel3 .read-more {
+                margin: 20px 0;
+            }
+            
+            section.placement-panel3 .owl-carousel.life-academic2-slider h3 {
+                color: #fff;
+                font-size: 3.5rem;margin:0px;
+            }
+            
+            
+            
+            section.placement-panel3 .owl-carousel.life-academic2-slider h5 {
+                  color: #fff;
+                font-size: .95rem;
+                font-weight: 300;
+                line-height: 1.6;margin:0px;
+            }
+            
+            section.placement-panel3 .owl-carousel.life-academic2-slider p {margin:0px;@include font-panel1; font-weight:600;}
+
+            section.placement-panel3 .owl-nav button span {
+                width: 30px;
+                height: 30px;
+                display: inline-block;
+                margin-right: 10px;
+                font-size: 24px;
+                line-height: 24px;
+                color: #fff;
+                font-weight: 100;
+                border: 1px solid #fff;
+                border-radius: 5px;
+            }
+            section.placement-panel3 .owl-nav{margin:25px 0;}
+
+            section.placement-news-act.inner-life-reva-panel6 h2 {
+                font-weight: 400;
+            }
+            
+            section.placement-news-act.inner-life-reva-panel6 p {
+                font-weight: 300;
+                padding: 0 100px;
+                line-height: 1.8;
+            }
+            
+            section.placement-news-act.inner-life-reva-panel6 h3 {
+                font-size: 1.5rem;
+            }
+
+
+            //research-panel1
+
+
+
+            .research-panel1{  background: url(../images/research-bg.png) no-repeat;
+                width: 100%;
+                height:100vh;
+    background-size: cover;    background-attachment: fixed;
+                background-position: center; position: relative;}
+            
+            .research-panel-content1 {
+                    width: 404px;
+                    padding-top: 170px;
+                    padding-left: 0;
+                    position: relative; z-index:2;
+            
+                }
+            
+                .research-panel1:after {
+        content: "";
+        background-image: linear-gradient(
+    181deg, #0000009e, #0000000d);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        z-index: 1;
+    
+    }
+
+    .research-box1{ 
+        background: #009AD9;
+        padding: 30px;
+    }
+    .research-box1 p {
+        color: #fff;
+        font-size: .95rem;
+        font-weight: 400;@include font-panel1; 
+    }
+    .research-panel-content1 h2 {
+        text-transform: uppercase;
+        color: #fff;
+        padding-bottom: 30px;@include font-panel1; 
+    }
+
+    .research-panel-content1 .read-more a:hover {
+        background: #fff;
+        border-color: #fff;
+        color: #000;
+    }
+
+    .research-panel2{  background: url(../images/research-bg2.png) no-repeat;
+        width: 100%;
+        height:100vh;
+        background-size: cover;    background-attachment: fixed;
+        background-position: center; position: relative; padding-top: 120px;}
+
+        .research-panel-content2 h2{ text-transform: capitalize;
+            font-weight: 600;
+            padding-bottom: 30px;
+            @include font-panel1; 
+            color: #333333;}
+            .research-panel-content2 p{color:#333;    font-size: .95rem;
+                font-weight: 300;
+            }
+            .research-panel-content2{    background: #FFCF06;
+                padding: 45px;
+                width: 500px;
+                float: right;}
+                .research-panel-content2 .read-more a{border-color: #333; color: #333;}
+
+
+                .research-panel-content2 .read-more a:hover {
+        background: #fff;
+        border-color: #fff;
+        color: #000;
+    }
+
+
+
+                .research-panel3{  background: url(../images/research-bg3.png) no-repeat;
+                    width: 100%;
+                    height:100vh;
+                    background-size: cover;    background-attachment: fixed;
+                    background-position: center; position: relative; padding-top:90px;}
+            
+                    .research-panel-content3 h2{ text-transform: capitalize;
+                        font-weight: 600;
+                        padding-bottom: 30px;
+                        @include font-panel1; 
+                        color: #fff;}
+                        .research-panel-content3 p{color:#fff;    font-size: .95rem;
+                            font-weight: 300;
+                        }
+                        .research-panel-content3{    background: #F37121;
+                            padding: 45px;
+                            width: 500px;
+                            float: left;}
+                            .research-panel-content3 .read-more a{border-color: #fff; color: #fff;}
+                            .research-panel-content3 ul{padding:20px 0; list-style: none;}
+                            .research-panel-content3 ul li a{display: block;color:#fff; @include font-panel1; 
+                                font-size: 1rem; font-weight: 600; padding: 5px 0;}
+                                .research-panel-content3 ul li a:hover{color:#333}
+
+                                .research-panel-content3 .read-more a:hover {
+                                    background: #fff;
+                                    border-color: #fff;
+                                    color: #000;
+                                }
+
+                                .research-panel3 .reva-resch-panel {
+                                    width:600px;
+                                    float: right;
+                                    position: absolute;
+                                    right: 0;
+                                    bottom: 0;
+                                }
+
+                                .research-panel3 .reva-resch-panel p {font-weight:300;  color:#fff; font-size:.8rem;@include font-panel1; position:relative;    border-top: 1px solid #ffffff38;
+                                    padding: 30px 0 0; 
+                                    margin: 0;}
+
+                                .research-panel3  .reva-resch-panel .owl-item.active p:after {
+                                    background: #FFDE00;
+                                    width: 50px;
+                                    height: 1px;
+                                    content: "";
+                                    position: absolute;
+                                    top: -1px;
+                                    left: 0px;
+                                }
+
+                                .research-panel3 .reva-resch-panel .owl-nav button span {
+                                    background: #383B43;
+                                    width: 30px;
+                                    height: 30px;
+                                    display: inline-block;
+                                    margin-right: 10px;
+                                    font-size: 28px;
+                                    line-height: 28px;
+                                    color: #FFDE00;
+                                    font-weight: 100;
+                                }
+
+                                .research-panel3 .owl-nav {
+                                    position: absolute;
+                                    top: -70px;
+                                }
+
+
+                                .research-panel4{  background: url(../images/research-bg4.png) no-repeat;
+                                    width: 100%;
+                                    height:100vh;
+                                    background-size: cover;    background-attachment: fixed;
+                                    background-position: center; position: relative; padding-top:90px;}
+                            
+                                    .research-panel-content4 h2{ text-transform: capitalize;
+                                        font-weight: 600;
+                                        padding-bottom: 30px;
+                                        @include font-panel1; 
+                                        color: #fff;}
+                                        .research-panel-content4 p{color:#fff;    font-size: .95rem;
+                                            font-weight: 300;
+                                        }
+                                        .research-panel-content4{    background: #383B43;
+                                            padding: 45px;
+                                            width: 450px;
+                                            float: right;}
+                                            .research-panel-content4 .read-more a:hover {
+                                                background: #fff;
+                                                border-color: #fff;
+                                                color: #000;
+                                            }
+                                            .path-3 {
+                                                width: 58%;
+                                                position: absolute;
+                                                top: -280px;
+                                                right: 0;
+                                                z-index: 0;
+                                                mix-blend-mode: multiply;
+                                                float: right;
+                                                text-align: right;
+                                            }
+                                            section.research-panel1 .container {
+                                                position: relative;
+                                            }
+
+
+
+                                        
+.about-panel1{  background: url(../images/about-pic1.png) no-repeat;
+    width: 100%;
+    height:100vh;
+    background-size: cover;    background-attachment: fixed;
+    background-position: center; position: relative;}
+
+    .about-panel-content1 {
+        width: 404px;
+        padding-top: 170px;
+        padding-left: 0;
+        position: relative; z-index:2;
+
+    }
+    .about-panel-content1 h2{ text-transform: capitalize;
+        font-weight: 600;
+        padding-bottom: 30px;
+        @include font-panel1; 
+        color: #fff}
+        .about-box1 p{color:#fff;    font-size: .95rem;
+            font-weight: 400;  @include font-panel1; 
+        }
+        .about-box1{    background: #F57F26;
+            padding: 45px;
+            width:350px;
+            }
+
+            .about-panel2{  background: url(../images/Swami-Vivekananda-Block.png) no-repeat;
+                width: 100%;
+                height:100vh;
+                background-size: cover;    background-attachment: fixed;    transform: translateZ(0px) scale(1);
+                background-position: center; position: relative; padding-top: 170px;transform-style: preserve-3d;}
+            
+                .about-panel-content2 {
+                    width: 404px;
+                   
+                    padding: 40px;
+                    position: relative; z-index:2; background: #009AD9; float:right;
+            
+                }
+                .about-panel-content2 h2{ text-transform: capitalize;
+                    font-weight: 600;
+                    padding-bottom: 30px;
+                    @include font-panel1; 
+                    color: #fff}
+                    .about-panel-content2 p{color:#fff;    font-size: .95rem;
+                        font-weight: 300; 
+                    }
+
+                    .about-panel3{  background: url(../images/governance.png) no-repeat;
+                        width: 100%;
+                        height:100vh;
+                        background-size: cover;    background-attachment: fixed;    transform: translateZ(0px) scale(1);
+                        background-position: center; position: relative; padding-top: 170px;transform-style: preserve-3d;}
+                    
+                        .about-panel-content3 {
+                            width: 404px;
+                           
+                            padding: 40px;
+                            position: relative; z-index:2; background: #383B43; 
+                    
+                        }
+                        .about-panel-content3 h2{ text-transform: capitalize;
+                            font-weight: 600;
+                            padding-bottom: 30px;
+                            @include font-panel1; 
+                            color: #fff}
+                            .about-panel-content3 p{color:#fff;    font-size: .95rem;
+                                font-weight: 300; 
+                            }
+
+
+                            .about-panel4{  background: url(../images/award.png) no-repeat;
+                                width: 100%;
+                                height:100vh;
+    background-size: cover;    background-attachment: fixed;    transform: translateZ(0px) scale(1);
+                                background-position: center; position: relative; padding-top: 170px;transform-style: preserve-3d;}
+                            
+                                .about-panel-content4 {
+                                    width: 404px;
+                                   
+                                    padding: 40px;
+                                    position: relative; z-index:2; background: #009AD9; float:right;
+                            
+                                }
+                                .about-panel-content4 h2{ text-transform: capitalize;
+                                    font-weight: 600;
+                                    padding-bottom: 30px;
+                                    @include font-panel1; 
+                                    color: #fff}
+                                    .about-panel-content4 p{color:#fff;    font-size: .95rem;
+                                        font-weight: 300; 
+                                    }
+               
+                   .read-more a:hover {
+                        background: #fff;
+                        border-color: #fff;
+                        color: #000;
+                    }
+
+
+                    .happening-panel1{  background: url(../images/news.png) no-repeat;
+                        width: 100%;
+                        height:100vh;
+    background-size: cover;    background-attachment: fixed;
+                        background-position: center; position: relative;}
+                    
+                        .happening-panel-content1 {
+                            width: 404px;
+                            padding-top: 170px;
+                            padding-left: 0;
+                            position: relative; z-index:2;
+                    
+                        }
+                        .happening-panel-content1 h2{ text-transform: capitalize;
+                            font-weight: 600;    font-size: 2.3rem;
+                            padding-bottom: 30px;
+                            @include font-panel1;  text-transform: uppercase;
+                            color: #fff}
+                            .happening-box1 p{color:#fff;    font-size:1.8rem;
+                                font-weight: 400;  @include font-panel1;     font-weight: 300;
+                            }
+                            .happening-box1{    background: #F57F26;
+                                padding: 45px;
+                                width:450px;    margin-top:41px;
+                                }                    
+
+
+                                .view-all-link {
+                                    float: right;
+                                }
+                                
+                                .view-all-link a {
+                                    color: #fff;
+                                    border: 1px solid #fff;
+                                    padding: 7px 15px; font-size:.9rem;
+                                }
+                                .view-all-link a:hover{background: #fff; color:#000;}
+                                
+                                .happening-title {
+                                    color: #fff;@include font-panel1;    font-size: 1.3rem;
+                                    font-weight: 500;    margin-bottom: 15px;
+                                }
+                                
+                                .happening-box1 .date h3 {
+                                    color: #fff;
+                                }
+                                .happening-box1 .date h4 {
+                                    color: #fff;
+                                }
+
+
+                                .happening-panel2{  background: url(../images/events.png) no-repeat;
+                                    width: 100%;
+                                    height:100vh;
+    background-size: cover;    background-attachment: fixed;
+                                    background-position: center; position: relative;padding:150px 0;}
+                                
+                                 
+                                    .happening-panel-content2 h2{ text-transform: capitalize;
+                                        font-weight: 600;    font-size: 2.3rem;
+                                        padding-bottom: 30px;
+                                        @include font-panel1;  text-transform: uppercase;
+                                        color: #fff}
+                                        .happening-box2 p{color:#fff;    font-size:1.8rem;
+                                            font-weight: 400;  @include font-panel1;     font-weight: 300;
+                                        }
+                                        .happening-box2{    background: #009AD9;
+                                            padding: 45px;
+                                            width:450px;   float: right;;
+                                            } 
+
+                                            .happening-box2 .date h3 {
+                                                color: #fff;
+                                            }
+                                            .happening-box2 .date h4 {
+                                                color: #fff;
+                                            }
+
+
+                                            .happening-panel3{  background: url(../images/activity.png) no-repeat;
+                                                width: 100%;
+                                                height:100vh;
+                                                background-size: cover;    background-attachment: fixed;
+                                                background-position: center; position: relative; padding:150px 0;}
+                                         
+                                                .happening-panel-content3 h2{ text-transform: capitalize;
+                                                    font-weight: 600;    font-size: 2.3rem;
+                                                    padding-bottom: 30px;
+                                                    @include font-panel1;  text-transform: uppercase;
+                                                    color: #fff}
+                                                    .happening-box3 p{color:#fff;    font-size:1.8rem;
+                                                        font-weight: 400;  @include font-panel1;     font-weight: 300;
+                                                    }
+                                                    .happening-box3{    background: #383B43;
+                                                        padding: 45px;
+                                                        width:450px;    margin-top:41px;
+                                                        } 
+                                                        .happening-box3 .date h3 {
+                                                            color: #fff;
+                                                        }
+                                                        .happening-box3 .date h4 {
+                                                            color: #fff;
+                                                        }
+
+
+                                                        .contact-panel1{  background: url(../images/contact.png) no-repeat;
+                                                            width: 100%;
+                                                            height: 550px;
+                                                            background-size: cover; background-attachment: fixed;
+                                                            background-position: center; position: relative; padding:150px 0;}
+
+
+
+                                                            .contact-reva {
+                                                                padding: 40px;
+                                                                background: #F57F26;
+                                                                text-align: center;
+                                                            }
+                                                            
+                                                            .caontact-panel-content1.aos-init.aos-animate h2 {
+                                                                padding-bottom: 25px;
+                                                                color: #fff;@include font-panel1; font-size: 2.3rem;
+                                                            }
+                                                            
+                                                            .contact-reva h3 {
+                                                                color: #fff;@include font-panel1;     margin-bottom: 30px;
+                                                            }
+                                                            
+                                                            .contact-reva p {
+                                                                color: #fff;@include font-panel1; font-weight: 300;    font-size: 1.1rem;
+                                                                padding: 0px 290px;
+                                                            }
+                                                            
+                                                            .contact-reva ul {
+                                                                display: flex;
+                                                                align-items: center;
+                                                                justify-content: center;
+                                                                list-style: none;
+                                                            }
+                                                            
+                                                            .contact-reva ul li {
+                                                                padding: 0 20px;
+                                                            }
+                                                            
+                                                            .contact-reva ul li a {
+                                                                color: #fff;
+                                                                font-size: .95rem;
+                                                                margin: 0 7px;
+                                                                font-weight: 300;
+                                                            }
+                                                            .contact-reva ul li {
+                                                                color: #fff;
+                                                            }
+                                                            
+
+                                                            .office-hours {
+                                                                display: inline-block;
+                                                                width: 400px;
+                                                                border: 1px solid #fff;
+                                                                text-align: center;
+                                                                padding:30px;    margin: 0 10px;
+                                                            }
+                                                            
+                                                            .office-adm {
+                                                                display: inline-block;
+                                                                width: 400px;
+                                                                vertical-align: top;
+                                                                border: 1px solid #fff;
+                                                                text-align: center;
+                                                                padding:30px;    margin: 0 10px;
+                                                            }
+
+
+                                                            .contact-reva .office-hours ul li {
+                                                                padding: 0px;
+                                                                display: block;
+                                                            }
+                                                            
+                                                            .contact-reva .office-hours ul li a {
+                                                                display: block;
+                                                            }
+                                                            
+                                                            .contact-reva .office-hours ul {
+                                                                flex-wrap: wrap;
+                                                                align-items: inherit;
+                                                                justify-content: inherit;
+                                                            }
+                                                            
+                                                            .office-adm h4 {
+                                                                text-align: center;
+                                                                position: relative;
+                                                                background: #f57f26;
+                                                                display: inline-block;
+                                                                top: -45px;
+                                                                padding: 0 20px;
+                                                                color: #fff;@include font-panel1;     font-size: 1.3rem;
+                                                                font-weight: 300;
+                                                            }
+                                                            
+                                                            .office-hours h4 {
+                                                                text-align: center;
+                                                                position: relative;
+                                                                background: #f57f26;
+                                                                display: inline-block;
+                                                                top: -45px;
+                                                                padding: 0 20px;@include font-panel1; 
+                                                                color: #fff; margin-bottom:0px;    font-size: 1.3rem;
+                                                                font-weight: 300;
+                                                            }
+                                                            .office-panel {
+                                                                padding: 50px;
+                                                            }
+                                                            
+                                                            .office-adm a {
+                                                                color: #fff;
+                                                            }
+                                                            .office-hours ul li span{font-size:.9rem;text-align: left; font-weight: 300;}
+                                                            
+                                                            .office-hours ul li span:nth-child(1) {
+                                                                width: 51%;
+                                                                display: inline-block;
+                                                            }
+                                                            
+                                                            .office-hours ul li span:nth-child(2) {
+                                                                width: 45%;
+                                                                display: inline-block;
+                                                            }
+                                                            .contact-reva .office-hours ul {
+                                                                width: 100%;
+                                                                display: block;
+                                                                margin: -20px 0px 0;
+                                                            }
+
+                                                            .office-adm p {
+                                                                margin-top: -13px;
+                                                                margin-bottom: 10px;
+                                                                padding: 0px;
+                                                            }
+                                                            
+                                                            .contact-reva ul {
+                                                                margin: 26px;
+                                                            }
+                                                            .contact-reva a:hover{color:#000;}
+
+                                                            section.contact-panel2 {
+                                                                margin-top: -300px;
+                                                                position: relative;
+                                                            }
+
+                                                            section.contact-panel3 {
+                                                                padding: 70px 0 0;
+                                                            }
+                                                            
+                                                            section.contact-panel3 h3 {
+                                                                margin-bottom: 32px;@include font-panel1; 
+                                                            }
+                                                            
+                                                            section.contact-panel3 ul {
+                                                                list-style: none;
+                                                            }
+                                                            
+                                                            section.contact-panel3 ul h4 {
+                                                                font-size: 1.1rem;
+                                                                margin-bottom: 15px;
+                                                            }
+                                                            
+                                                            .profile-panel {
+                                                                background: #FDEBE7;
+                                                                padding: 10px 20px;
+                                                                margin-bottom: 20px;
+                                                                color: #333;
+                                                                font-size: 1rem;
+                                                            }
+                                                            
+                                                            .contact-pan {
+                                                                float: right;
+                                                            }
+                                                            
+                                                            .contact-pan a {
+                                                                font-size: .8rem;
+                                                                color: #000;
+                                                                padding: 0 10px;
+                                                            }
+                                                            
+                                                            .contact-pan a img {
+                                                                margin-right: 5px;
+                                                            }
+                                                            
+                                                            .contact-pan a:hover {
+                                                                color: #2096a1;
+                                                            }
+
+                                                            section.contact-panel4 {
+                                                                padding: 30px 30px 50px;
+                                                            }
+                                                            
+                                                            section.contact-panel4 p {
+                                                                font-size: .8rem;
+                                                                line-height: 1.8; color: #666666;
+                                                            }
+
+
+                                                            .ece-placement-at.placement-at.ece-faculty-eng {
+                                                                background: #F9A455;
+                                                            }
+
+                                                            .ece-placement-at.placement-at.ece-faculty-eng .text-placement {
+                                                                background: #f9a455;}
+
+                                                              
+                                                                    .ece-placement-at.placement-at.ece-faculty-eng .path-2 {
+                                                                        width: 100%;
+                                                                        position: absolute;
+                                                                        right: -160px;
+                                                                        top: -124px;
+                                                                        left: inherit;
+                                                                    }
+                                                                
+                                                                    .ece-placement-at.placement-at.ece-faculty-eng  .placement-pic {
+                                                                        position: absolute;
+                                                                        right: 41px;
+                                                                        bottom: -122px;
+                                                                        width: 74%;
+                                                                    }
+
+                                                                    .faculty-eng-testimonial{ background: url(../images/testimonial-bg.png) no-repeat;
+                                                                        width: 100%;
+                                                                        height: 550px;
+                                                                        background-size: cover;
+                                                                        background-position: center; position: relative; padding:70px 0;}
+
+                                                                        .testimonial-box {
+                                                                            width: 470px;
+                                                                            background: #009AD9;
+                                                                            padding: 40px;
+                                                                            float: right;
+                                                                        }
+                                                                        
+                                                                        .testimonial-box h2 {
+                                                                            color: #fff;
+                                                                            margin-bottom: 24px;@include font-panel1; 
+                                                                        }
+                                                                        
+                                                                        .testimonial-box p {
+                                                                            color: #fff;
+                                                                            font-weight: 300;
+                                                                        }
+                                                                        
+                                                                        .testimonial-name {
+                                                                            border-top: 1px solid #ffffff4a;
+                                                                            border-bottom: 1px solid #ffffff4a;
+                                                                            padding: 20px 0;
+                                                                            margin: 30px 0;
+                                                                        }
+                                                                        
+                                                                        .testimonial-name h4 {
+                                                                            color: #fff;@include font-panel1;   font-weight: 400;   margin-bottom: 20px;
+                                                                        }
+                                                                        
+                                                                     
+                                                                        
+                                                                        .testimonial-name h5 {
+                                                                            color: #fff;
+                                                                            font-size: 1rem;
+                                                                            font-weight: 300;
+                                                                        }
+
+
+                                                                        .home-happening.faculty-happening .path-1 {
+                                                                            width: 50%;
+                                                                            position: absolute;
+                                                                            left: -300px;
+                                                                            bottom: -124px;
+                                                                            top: inherit;
+                                                                        }
+
+
+                                                                        section.inner-head-panel {
+                                                                            padding: 100px 0;
+                                                                            background: #60636D;
+                                                                            height: 272px;overflow: hidden;
+                                                                        }
+                                                                        
+                                                                        section.inner-head-panel   .path-3 img {
+                                                                            width: 100%;
+                                                                        }
+                                                                        
+                                                                        section.inner-head-panel h1 {
+                                                                            color: #fff;
+                                                                            padding: 60px 0;
+                                                                            font-size: 2.5rem;@include font-panel1; font-weight:400;
+                                                                            margin: 0; text-transform:uppercase;
+                                                                        }
+
+                                                                        section.inner-head-panel  .path-3 {
+                                                                            width: 34%;
+                                                                            position: absolute;
+                                                                            top: 0px;
+                                                                            right: 0;
+                                                                            z-index: 0;
+                                                                            mix-blend-mode: multiply;
+                                                                            float: right;
+                                                                            text-align: right;
+                                                                        }
+
+
+                                                                        section.course-list-section {
+                                                                            padding: 70px 0;
+                                                                        }
+                                                                        
+                                                                        .courselist-menu {
+                                                                            background: #EEE1D8;
+                                                                            padding: 30px;
+                                                                        }
+                                                                        
+                                                                        .courselist-menu ul {
+                                                                            list-style: none;
+                                                                        }
+                                                                        
+                                                                        .courselist-menu h2 {
+                                                                            font-size: 1rem;
+                                                                            margin-bottom: 12px;
+                                                                            font-weight: 600;
+                                                                        }
+                                                                        
+                                                                        .courselist-menu ul li a {
+                                                                            color: #333333;
+                                                                            display: block;
+                                                                            padding: 3px 0;
+                                                                            font-size: .9rem;
+                                                                        }
+                                                                        .courselist-menu ul li a:hover{color:#000;} 
+                                                                        .courselist-menu ul li a.active{color:#000;
+                                                                        font-weight:600;} 
+                                                                        
+                                                                        .courselist-menu ul {
+                                                                            margin-bottom: 30px;
+                                                                        }
+
+                                                                       .courses-tab .nav-tabs {
+                                                                            display:none;
+                                                                        }
+                                                                        
+                                                                        @media(min-width:768px) {
+                                                                        .courses-tab .nav-tabs {
+                                                                                display: flex;
+                                                                            }
+                                                                            
+                                                                            .courses-tab .card {
+                                                                                border: none;
+                                                                            }
+                                                                        
+                                                                            .courses-tab .card .card-header {
+                                                                                display:none;
+                                                                            }  
+                                                                        
+                                                                            .courses-tab .card .collapse{
+                                                                                display:block;
+                                                                            }
+                                                                        }
+                                                                        
+                                                                        @media(max-width:767px){
+                                                                            .courses-tab .tab-content > .tab-pane {
+                                                                                display: block !important;
+                                                                                opacity: 1;
+                                                                            }
+                                                                        }
+
+                                                                        .courses-tab .nav-tabs .nav-link.active {
+                                                                            border: 0px;
+                                                                            border-bottom: 1px solid #F7941E; color:#0096A1;padding-bottom: 28px;
+                                                                        }
+                                                                        
+                                                                        .courses-tab .nav-tabs .nav-link:hover {
+                                                                            background: none;
+                                                                            border: 0px;
+                                                                            border-radius: 0px;   border-bottom: 1px solid #F7941E; 
+                                                                            border-left: 0px;    color: #0096A1;
+                                                                        }
+                                                                        
+                                                                        
+                                                                        .courses-tab .nav-tabs .nav-item.show .nav-link {
+                                                                            border: 0px;
+                                                                            background: none;
+                                                                        }
+                                                                        
+                                                                        .courses-tab .nav-tabs .nav-link {
+                                                                            border: 0px;
+                                                                            border-bottom: 1px solid #0000;
+                                                                            color: #666666;
+                                                                            font-size: 1.3rem;
+                                                                            @include font-panel1; 
+                                                                            font-weight: 500;
+                                                                            border-left: 0px;
+                                                                            border-radius: 0px; position: relative;
+                                                                            line-height: .5;padding-bottom: 28px;
+                                                                        }
+
+                                                                        .courses-tab   .nav-tabs {
+                                                                            border-bottom: 1px solid #dee2e6;
+                                                                            padding-bottom: 0px;
+                                                                        }
+
+                                                                        .courses-names h2 {
+                                                                            font-size: 1.2rem;
+                                                                            margin-bottom: 30px;
+                                                                            @include font-panel1; 
+                                                                            font-weight: 400;    color: #383B43;
+                                                                        }
+                                                                        .couse-pan h5 {
+                                                                            font-size: 1rem;
+                                                                            color: #333333;
+                                                                            font-weight: 600;
+                                                                        }
+                                                                        
+                                                                        .couse-pan p {
+                                                                            color: #000;
+                                                                            font-size: .95rem;
+                                                                            margin: 0px;
+                                                                        }
+                                                                        
+                                                                        .couse-pan:nth-child(odd) {
+                                                                            background: #fdebe74f;
+                                                                      
+                                                                        }
+                                                                        
+                                                                        .couse-pan {
+                                                                            padding: 30px; position: relative;    margin-bottom: 20px;
+                                                                        }
+                                                                        .couse-pan .read-more {
+                                                                            position: absolute;
+                                                                            right: 30px;
+                                                                            bottom: 30px;
+                                                                        }
+                                                                        
+                                                                        .couse-pan .read-more a {
+                                                                            background: #fff;
+                                                                            color: #000;
+                                                                            box-shadow: 0px 2px 7px #5858582b;
+                                                                        }
+                                                                        
+                                                                        .couse-pan .read-more a:hover {
+                                                                            background: #f57f26;
+                                                                            color: #fff;
+                                                                        }
+                                                                        .courses-tab .card-body {
+                                                                            padding: 30px 0px;
+                                                                        }
+                                                                        .courses-names h2:hover {
+                                                                            color: #2096a1;
+                                                                        }
+
+                                                                        .courses-tab .nav-tabs .nav-link:after {
+                                                                            position: absolute;
+                                                                            content: "";
+                                                                            background: #666;
+                                                                            width: 1px;
+                                                                            height: 22px;
+                                                                            right: 0px;
+                                                                            top: 4px;
+                                                                        }
+                                                                        
+                                                                        .courses-tab .nav-tabs .nav-item:last-child .nav-link:after{display:none;}
+
+                                                                        .career-panel1{background:#60636D;    margin-top: -100px;}
+                                                                        .career-panel1 h3{    font-size: 2.5rem;
+                                                                      color:#fff;    margin-top:100px;
+                                                                            @include font-panel1; position: relative; padding:50px 0; }
+
+                                                                            .career-panel1 h3:before {content: "";width: 80px;height: 1px;position: absolute;background: #FFCF06;top: 0;}
+
+                                                                            section.career-panel2 {
+                                                                                padding: 180px 0 100px;
+                                                                            }
+                                                                            
+                                                                            section.career-panel1 img {
+                                                                                position: relative;
+                                                                                top: 100px;
+                                                                            }
+                                                                            
+                                                                            section.career-panel2 p {
+                                                                                font-size: .9rem;
+                                                                                color: #666666;
+                                                                                line-height: 1.8;
+                                                                            }
+                                                                            
+                                                                            
+                                                                            section.career-panel2 h6 {
+                                                                                border-top: 1px solid #FDEBE7;
+                                                                                text-align: center;
+                                                                                padding: 50px 100px;
+                                                                                margin: 50px 0 20px;
+                                                                                font-size: 1.5rem;
+                                                                                font-weight: 300;
+                                                                                line-height: 1.5; @include font-panel1;
+                                                                            }
+                                                                            
+                                                                            section.career-panel2 h6 a {
+                                                                                font-weight: bold;
+                                                                                color: #000;
+                                                                            }
+                                                                            
+                                                                            .contact-hr {
+                                                                                display: flex;
+                                                                                align-items: center;
+                                                                                justify-content: center;
+                                                                            }
+                                                                            
+                                                                            .contact-hr h4 {
+                                                                                font-size: 1.1rem;
+    margin: 0 20px;
+    font-weight: 600;
+                                                                            }
+                                                                            
+                                                                            .contact-phone a {
+                                                                                color: #333333;
+                                                                                margin: 0 1px;
+                                                                                font-size: .95rem;
+                                                                            }
+                                                                            
+                                                                            .contact-phone {
+                                                                                font-size: .95rem;
+                                                                                margin: 0 15px;
+                                                                                color: #333333;
+                                                                            }
+                                                                            
+                                                                            .contact-email {
+                                                                                font-size: .95rem;
+                                                                                margin: 0 15px;
+                                                                                color: #333333;
+                                                                                }
+                                                                            .contact-email a {
+                                                                                color: #333333;
+                                                                                margin: 0 1px;
+                                                                                font-size: .95rem;
+                                                                            }
+                                                                            .doen-resume {   font-size: .95rem;
+                                                                                margin: 0 10px;}
+                                                                            
+                                                                            .doen-resume a {
+                                                                                color: #000;
+                                                                                margin: 0 1px;
+                                                                                font-size: .95rem;
+                                                                                background: #FEBE10;
+                                                                                text-transform: uppercase;
+                                                                                padding: 12px 11px 12px 12px;
+                                                                                font-weight: 600;
+                                                                            }
+                                                                            
+                                                                            .doen-resume a img {
+                                                                                margin-left: 10px;
+                                                                            }
+                                                                            .contact-hr  .doen-resume a:hover {
+                                                                                background: #2096a1;
+                                                                                color: #fff;
+                                                                            }
+                                                                            
+                                                                            .contact-hr a:hover {
+                                                                                color: #f57f26;
+                                                                            }
+
+                                                                             section.career-panel2 h6 a:hover {
+                                                                                color: #f57f26;
+                                                                            }
+
+                                                                            section.career-testimonial {
+                                                                                padding: 50px 30px;
+                                                                                background: #F9A455;
+                                                                            }
+                                                                            
+                                                                            .career-test-detail h2 {
+                                                                                font-size: 1.8rem;
+                                                                                margin-bottom: 4px;@include font-panel1;
+                                                                            }
+                                                                            
+                                                                            .career-test-detail h6 {
+                                                                                font-size: .8rem;
+                                                                            }
+                                                                            
+                                                                            .career-test-detail h4 {
+                                                                                display: inline-block;
+                                                                                background: #F37121;
+                                                                                font-size: 1rem;
+                                                                                padding: 5px 10px;
+                                                                                margin: 10px 0 30px;
+                                                                            }
+                                                                            
+                                                                            .career-test-detail p {
+                                                                                font-weight: 300;
+                                                                                font-size: 1.5rem;
+                                                                            }
+                                                                            
+                                                                            .career-test-detail {
+                                                                                padding: 30px;
+                                                                            }
+
+                                                                            .career-testimonial .owl-nav button span {
+                                                                                background: none;
+                                                                                width: 30px;
+                                                                                height: 30px;
+                                                                                display: inline-block;
+                                                                                margin-right: 10px;
+                                                                                font-size: 28px;
+                                                                                line-height: 28px;
+                                                                                color: #fff;
+                                                                                font-weight: 100;
+                                                                                border: 1px solid #fff;
+                                                                            }
+
+                                                                            section.career-testimonial .owl-nav {
+                                                                                position: absolute;
+                                                                                left: 411px;
+                                                                                bottom: 10px;
+                                                                            }
+                                                                            
+
+                                                                            section.career-current-opening {
+                                                                                background: #71C0CA;
+                                                                                padding: 100px 0;
+                                                                            }
+                                                                            
+                                                                            section.career-current-opening h2 {
+                                                                                text-align: center;
+                                                                                font-size: 1.8rem;
+                                                                                margin-bottom: 50px;@include font-panel1;
+                                                                            }
+                                                                            
+                                                                            .carer_wrappper {
+                                                                                background: #fff;
+                                                                            }
+                                                                            
+                                                                            .career-opening {
+                                                                                padding: 30px;
+                                                                            }
+                                                                            
+                                                                            .career-apply {
+                                                                                background: #FDEBE7;
+                                                                                padding: 30px;
+                                                                                position: relative;
+                                                                            }
+                                                                            
+                                                                        
+                                                                            
+                                                                            .career-opening h3 {
+                                                                                font-size: 1.4rem;
+                                                                                margin-bottom: 25px;
+                                                                                position: relative; color:#0096A1;
+                                                                                padding-bottom: 20px;@include font-panel1;
+                                                                            }
+                                                                            
+                                                                            .career-opening img {
+                                                                                width: 30px;
+                                                                                height: 30px;
+                                                                                margin-right: 20px;
+                                                                            }
+                                                                            
+                                                                            .years-current {
+                                                                                font-size: .9rem;
+                                                                            }
+                                                                            
+                                                                            .place-current {
+                                                                                font-size: .9rem;
+                                                                            }
+                                                                            
+                                                                            .apply-now a {
+                                                                                background: #FEBE10;
+                                                                                padding: 10px 24px;
+                                                                                color: #000;
+                                                                                text-transform: uppercase;
+                                                                                font-weight: 600;
+                                                                                font-size: .9rem;
+                                                                            }
+                                                                            
+                                                                            .career-apply .read-more {
+                                                                                position: absolute;
+                                                                                right: 30px;
+                                                                                top: 15px;
+                                                                            }
+                                                                            
+                                                                            .career-apply .read-more a {
+                                                                                border: 1px solid #333;
+                                                                                color: #333; border-radius:0px;
+                                                                            }
+                                                                            
+                                                                            .career-opening h3:after {content: "";width: 50px;height: 2px;background: #FEBE10;position: absolute;bottom: 0px;left: 0px;}
+
+                                                                            .apply-now a:hover {
+                                                                                background: #fff;
+                                                                            }
+
+                                                                            .career-apply .read-more a:hover {
+                                                                                background: #fff;
+                                                                                color: #333;
+                                                                            }
+
+                                                                            #loadMore {
+                                                                                width: 200px;
+                                                                                color: #000;
+                                                                                display: block;
+                                                                                text-align: center;
+                                                                                margin: 20px auto;
+                                                                                padding: 10px;
+                                                                          transition: .3s;@include font-panel1;
+                                                                              }
+                                                                              #loadMore:hover {
+                                                                          
+                                                                                text-decoration: none;
+                                                                              }
+                                                                              .noContent {
+                                                                                color: #000 !important;
+                                                                                background-color: transparent !important;
+                                                                                pointer-events: none;
+                                                                              }
+
+                                                                              .career-current-opening .col-md-4{display: none; margin-bottom: 30px;}
+
+
+                                                                              .placement-panel7{padding:90px 0;}
+                                                                              .placement-panel7 h2{font-size: 1.8rem; font-weight:400; padding-bottom: 20px;@include font-panel1;
+                                                                            text-align: center;}
+
+                                                                            .placement-panel7 .owl-nav button span {
+                                                                                background: none;
+                                                                                width: 30px;
+                                                                                height: 30px;
+                                                                                display: inline-block;
+                                                                                margin-right: 10px;
+                                                                                font-size: 28px;
+                                                                                line-height: 28px;
+                                                                                color: #333;
+                                                                                font-weight: 100;
+                                                                                border: 1px solid #333;
+                                                                            }
+
+                                                                            .placement-panel7 .owl-nav{text-align: center;}
+
+                                                                            section.happening-panel4 {background: #D8D5D4;padding: 80px 0 150px;}
+
+.media-cover-detail {
+    background: #fff;
+    padding: 30px;
+}
+
+.media-cover-detail h2 {
+    font-size: 1.2rem;
+    @include font-panel1; font-weight:400;
+    margin: 10px 0;
+    line-height: 1.4; color:#000;
+} 
+.media-cover-detail h2:hover {
+    color: #2096a1;
+}
+
+.happen-media-coverage.press-cover h2 {
+    font-size: 2.4rem;
+    @include font-panel1;    font-weight: 400;
+    margin: 10px 0 60px;
+    line-height: 1.2;
+} 
+
+.happening-panel4 h1 {
+    font-size: 1.3rem;
+    @include font-panel1; font-weight:600;
+    margin: 0px 0 20px;
+    line-height: 1.4; color:#333333;
+}   
+
+.media-cover-detail .date {
+    padding: 0px;
+}
+
+.media-cover-detail .read-more a {
+    border: 1px solid #333;
+    color: #333;
+}
+
+.view-all {
+    margin: 10px 0 0;
+}
+
+.view-all a {
+    color: #333;
+}
+.view-all a:hover {color:#F57F26;}
+
+.happen-media-coverage{height: 100%;background: #fff;}
+
+.happening-panel4 .read-more a {
+    border: 1px solid #333;
+    color: #333;
+}
+.happening-panel4 .read-more a:hover {background:#F57F26; color:#fff;}
+
+.happen-media-coverage.notifiaction-cover .media-cover-detail {
+    padding-bottom: 8px;
+}
+
+.happen-media-coverage.notifiaction-cover 
+ .read-more {
+    padding: 0 30px;
+}
+
+.happen-media-coverage.notifiaction-cover .view-all {
+    padding: 0 30px;
+}

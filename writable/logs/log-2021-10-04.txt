@@ -1,0 +1,64 @@
+CRITICAL - 2021-10-04 17:54:31 --> Invalid file: frontend/custom404.php
+#0 /home/proje126/public_html/reva_new/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/custom...')
+#1 /home/proje126/public_html/reva_new/system/Common.php(176): CodeIgniter\View\View->render('frontend/custom...', Array, NULL)
+#2 /home/proje126/public_html/reva_new/app/Config/Routes.php(71): view('frontend/custom...')
+#3 /home/proje126/public_html/reva_new/system/CodeIgniter.php(870): CodeIgniter\CodeIgniter->Config\{closure}('Controller or i...')
+#4 /home/proje126/public_html/reva_new/system/CodeIgniter.php(262): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 /home/proje126/public_html/reva_new/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-04 17:54:31 --> Invalid file: frontend/custom404.php
+#0 /home/proje126/public_html/reva_new/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/custom...')
+#1 /home/proje126/public_html/reva_new/system/Common.php(176): CodeIgniter\View\View->render('frontend/custom...', Array, NULL)
+#2 /home/proje126/public_html/reva_new/app/Config/Routes.php(71): view('frontend/custom...')
+#3 /home/proje126/public_html/reva_new/system/CodeIgniter.php(870): CodeIgniter\CodeIgniter->Config\{closure}('Controller or i...')
+#4 /home/proje126/public_html/reva_new/system/CodeIgniter.php(262): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 /home/proje126/public_html/reva_new/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-04 17:54:40 --> Invalid file: frontend/custom404.php
+#0 /home/proje126/public_html/reva_new/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/custom...')
+#1 /home/proje126/public_html/reva_new/system/Common.php(176): CodeIgniter\View\View->render('frontend/custom...', Array, NULL)
+#2 /home/proje126/public_html/reva_new/app/Config/Routes.php(71): view('frontend/custom...')
+#3 /home/proje126/public_html/reva_new/system/CodeIgniter.php(870): CodeIgniter\CodeIgniter->Config\{closure}('Controller or i...')
+#4 /home/proje126/public_html/reva_new/system/CodeIgniter.php(262): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 /home/proje126/public_html/reva_new/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-04 17:54:40 --> Invalid file: frontend/custom404.php
+#0 /home/proje126/public_html/reva_new/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/custom...')
+#1 /home/proje126/public_html/reva_new/system/Common.php(176): CodeIgniter\View\View->render('frontend/custom...', Array, NULL)
+#2 /home/proje126/public_html/reva_new/app/Config/Routes.php(71): view('frontend/custom...')
+#3 /home/proje126/public_html/reva_new/system/CodeIgniter.php(870): CodeIgniter\CodeIgniter->Config\{closure}('Controller or i...')
+#4 /home/proje126/public_html/reva_new/system/CodeIgniter.php(262): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 /home/proje126/public_html/reva_new/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-04 17:54:44 --> Invalid file: frontend/custom404.php
+#0 /home/proje126/public_html/reva_new/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/custom...')
+#1 /home/proje126/public_html/reva_new/system/Common.php(176): CodeIgniter\View\View->render('frontend/custom...', Array, NULL)
+#2 /home/proje126/public_html/reva_new/app/Config/Routes.php(71): view('frontend/custom...')
+#3 /home/proje126/public_html/reva_new/system/CodeIgniter.php(870): CodeIgniter\CodeIgniter->Config\{closure}('Controller or i...')
+#4 /home/proje126/public_html/reva_new/system/CodeIgniter.php(262): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 /home/proje126/public_html/reva_new/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-04 17:54:44 --> Invalid file: frontend/custom404.php
+#0 /home/proje126/public_html/reva_new/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/custom...')
+#1 /home/proje126/public_html/reva_new/system/Common.php(176): CodeIgniter\View\View->render('frontend/custom...', Array, NULL)
+#2 /home/proje126/public_html/reva_new/app/Config/Routes.php(71): view('frontend/custom...')
+#3 /home/proje126/public_html/reva_new/system/CodeIgniter.php(870): CodeIgniter\CodeIgniter->Config\{closure}('Controller or i...')
+#4 /home/proje126/public_html/reva_new/system/CodeIgniter.php(262): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 /home/proje126/public_html/reva_new/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-04 17:54:49 --> Invalid file: frontend/custom404.php
+#0 /home/proje126/public_html/reva_new/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/custom...')
+#1 /home/proje126/public_html/reva_new/system/Common.php(176): CodeIgniter\View\View->render('frontend/custom...', Array, NULL)
+#2 /home/proje126/public_html/reva_new/app/Config/Routes.php(71): view('frontend/custom...')
+#3 /home/proje126/public_html/reva_new/system/CodeIgniter.php(870): CodeIgniter\CodeIgniter->Config\{closure}('Controller or i...')
+#4 /home/proje126/public_html/reva_new/system/CodeIgniter.php(262): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 /home/proje126/public_html/reva_new/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-10-04 17:54:49 --> Invalid file: frontend/custom404.php
+#0 /home/proje126/public_html/reva_new/system/View/View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/custom...')
+#1 /home/proje126/public_html/reva_new/system/Common.php(176): CodeIgniter\View\View->render('frontend/custom...', Array, NULL)
+#2 /home/proje126/public_html/reva_new/app/Config/Routes.php(71): view('frontend/custom...')
+#3 /home/proje126/public_html/reva_new/system/CodeIgniter.php(870): CodeIgniter\CodeIgniter->Config\{closure}('Controller or i...')
+#4 /home/proje126/public_html/reva_new/system/CodeIgniter.php(262): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#5 /home/proje126/public_html/reva_new/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
